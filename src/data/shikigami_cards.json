@@ -323,5 +323,97 @@
       { "id": "13de3ade", "name": "Venom Frenzy", "url": "kiyohime/kiyohime-venom_frenzy.png" }
     ],
     "avatar": "kiyohime/kiyohime-avatar.png"
+  },
+  {
+    "name": "Inugami",
+    "character_card": "inugami/inugami-char.png",
+    "cards": [
+      { "id": "62d275f7", "name": "Evolved: Inugami", "url": "inugami/inugami-evolved.png" },
+      { "id": "75080626", "name": "Evolved: Inugami", "url": "inugami/inugami-evolved.png" },
+      { "id": "4715c928", "name": "Guard", "url": "inugami/inugami-guard.png" },
+      { "id": "ca50aa62", "name": "Guard", "url": "inugami/inugami-guard.png" },
+      { "id": "ed1baa56", "name": "Heart Strike", "url": "inugami/inugami-heart_strike.png" },
+      { "id": "70e5a023", "name": "Heart Strike", "url": "inugami/inugami-heart_strike.png" },
+      { "id": "42fdda32", "name": "Loyal Return", "url": "inugami/inugami-loyal_return.png" },
+      { "id": "72090355", "name": "Loyal Return", "url": "inugami/inugami-loyal_return.png" },
+      { "id": "6b3b14ea", "name": "Mind over Matter", "url": "inugami/inugami-mind_over_matter.png" },
+      { "id": "f8ef6eea", "name": "Mind over Matter", "url": "inugami/inugami-mind_over_matter.png" },
+      { "id": "e4cede6f", "name": "Strike Evil", "url": "inugami/inugami-strike_evil.png" },
+      { "id": "1ac3cdb1", "name": "Strike Evil", "url": "inugami/inugami-strike_evil.png" },
+      { "id": "a68b23e4", "name": "Sword Flurry", "url": "inugami/inugami-sword_flurry.png" },
+      { "id": "d901d6d3", "name": "Sword Flurry", "url": "inugami/inugami-sword_flurry.png" },
+      { "id": "0f0f5bd6", "name": "The Value of Bonds", "url": "inugami/inugami-the_value_of_bonds.png" },
+      { "id": "691e689c", "name": "The Value of Bonds", "url": "inugami/inugami-the_value_of_bonds.png" }
+    ],
+    "avatar": "inugami/inugami-avatar.png"
+  },
+  {
+    "name": "Yamawaro",
+    "character_card": "yamawaro/yamawaro-char.png",
+    "cards": [
+      { "id": "ddd7e0c9", "name": "Bludgeoning", "url": "yamawaro/yamawaro-bludgeoning.png" },
+      { "id": "438cc202", "name": "Bludgeoning", "url": "yamawaro/yamawaro-bludgeoning.png" },
+      { "id": "d021977e", "name": "Clumsy", "url": "yamawaro/yamawaro-clumsy.png" },
+      { "id": "57d62279", "name": "Clumsy", "url": "yamawaro/yamawaro-clumsy.png" },
+      { "id": "2d978457", "name": "Evolved: Yamawaro", "url": "yamawaro/yamawaro-evolved.png" },
+      { "id": "ced3cb9a", "name": "Evolved: Yamawaro", "url": "yamawaro/yamawaro-evolved.png" },
+      { "id": "a3c25374", "name": "Hammer Smash", "url": "yamawaro/yamawaro-hammer_smash.png" },
+      { "id": "85007bbd", "name": "Hammer Smash", "url": "yamawaro/yamawaro-hammer_smash.png" },
+      { "id": "a2a329f5", "name": "Oppertunity Bash", "url": "yamawaro/yamawaro-oppertunity_bash.png" },
+      { "id": "5b815dd6", "name": "Oppertunity Bash", "url": "yamawaro/yamawaro-oppertunity_bash.png" },
+      { "id": "dbb18b42", "name": "Reckless", "url": "yamawaro/yamawaro-reckless.png" },
+      { "id": "fbc86f68", "name": "Reckless", "url": "yamawaro/yamawaro-reckless.png" },
+      { "id": "1464e4a7", "name": "Roar", "url": "yamawaro/yamawaro-roar.png" },
+      { "id": "40b84d1a", "name": "Roar", "url": "yamawaro/yamawaro-roar.png" },
+      { "id": "786651c8", "name": "Tenacity", "url": "yamawaro/yamawaro-tenacity.png" },
+      { "id": "b6c73ea1", "name": "Tenacity", "url": "yamawaro/yamawaro-tenacity.png" }
+    ],
+    "avatar": "yamawaro/yamawaro-avatar.png"
+  },
+  {
+    "name": "Yamausagi",
+    "character_card": "yamausagi/yamausagi-char.png",
+    "cards": [
+      { "id": "b5e1aef0", "name": "Be Nice", "url": "yamausagi/yamausagi-be_nice.png" },
+      { "id": "86a66f5b", "name": "Be Nice", "url": "yamausagi/yamausagi-be_nice.png" },
+      { "id": "693cc1ee", "name": "Cute is Justice", "url": "yamausagi/yamausagi-cute_is_justice.png" },
+      { "id": "f2b80144", "name": "Cute is Justice", "url": "yamausagi/yamausagi-cute_is_justice.png" },
+      { "id": "854e475e", "name": "Evolved: Yamausagi", "url": "yamausagi/yamausagi-evolved.png" },
+      { "id": "ca0ea5e2", "name": "Evolved: Yamausagi", "url": "yamausagi/yamausagi-evolved.png" },
+      { "id": "a4ef9470", "name": "Hit Me If You Dare", "url": "yamausagi/yamausagi-hit_me_if_you_dare.png" },
+      { "id": "db030607", "name": "Hit Me If You Dare", "url": "yamausagi/yamausagi-hit_me_if_you_dare.png" },
+      { "id": "a95d2d54", "name": "It's My Victory", "url": "yamausagi/yamausagi-its_my_victory.png" },
+      { "id": "293d42d0", "name": "It's My Victory", "url": "yamausagi/yamausagi-its_my_victory.png" },
+      { "id": "ee9f916a", "name": "Protect Me", "url": "yamausagi/yamausagi-protect_me.png" },
+      { "id": "67be9b42", "name": "Protect Me", "url": "yamausagi/yamausagi-protect_me.png" },
+      { "id": "5bb9e641", "name": "Ring Toss", "url": "yamausagi/yamausagi-ring_toss.png" },
+      { "id": "0cea5ce6", "name": "Ring Toss", "url": "yamausagi/yamausagi-ring_toss.png" },
+      { "id": "287e5068", "name": "Send Blessings", "url": "yamausagi/yamausagi-send_blessings.png" },
+      { "id": "e88134a4", "name": "Send Blessings", "url": "yamausagi/yamausagi-send_blessings.png" }
+    ],
+    "avatar": "yamausagi/yamausagi-avatar.png"
+  },
+  {
+    "name": "Bukkuman",
+    "character_card": "bukkuman/bukkuman-char.png",
+    "cards": [
+      { "id": "65401466", "name": "A New Page", "url": "bukkuman/bukkuman-a_new_page.png" },
+      { "id": "de8e2a86", "name": "A New Page", "url": "bukkuman/bukkuman-a_new_page.png" },
+      { "id": "9eb7a854", "name": "Clarity of Mind", "url": "bukkuman/bukkuman-clarity_of_mind.png" },
+      { "id": "8cbb935d", "name": "Clarity of Mind", "url": "bukkuman/bukkuman-clarity_of_mind.png" },
+      { "id": "b3ebbf48", "name": "Evolved: Bukkuman", "url": "bukkuman/bukkuman-evolved.png" },
+      { "id": "68dcce87", "name": "Evolved: Bukkuman", "url": "bukkuman/bukkuman-evolved.png" },
+      { "id": "930dc8f2", "name": "Explorer of Worlds", "url": "bukkuman/bukkuman-explorer_of_worlds.png" },
+      { "id": "b5efc665", "name": "Explorer of Worlds", "url": "bukkuman/bukkuman-explorer_of_worlds.png" },
+      { "id": "76679a37", "name": "Ink Splash", "url": "bukkuman/bukkuman-ink_splash.png" },
+      { "id": "9445069f", "name": "Ink Splash", "url": "bukkuman/bukkuman-ink_splash.png" },
+      { "id": "5d2a837a", "name": "Learned Sage", "url": "bukkuman/bukkuman-learned_sage.png" },
+      { "id": "a9ca08de", "name": "Learned Sage", "url": "bukkuman/bukkuman-learned_sage.png" },
+      { "id": "f506ed99", "name": "Scroll of Everything", "url": "bukkuman/bukkuman-scroll_of_everything.png" },
+      { "id": "86d9867a", "name": "Scroll of Everything", "url": "bukkuman/bukkuman-scroll_of_everything.png" },
+      { "id": "38f4419d", "name": "Wander", "url": "bukkuman/bukkuman-wander.png" },
+      { "id": "0854fc1f", "name": "Wander", "url": "bukkuman/bukkuman-wander.png" }
+    ],
+    "avatar": "bukkuman/bukkuman-avatar.png"
   }
 ]

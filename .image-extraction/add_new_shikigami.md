@@ -6,7 +6,7 @@ Remove all current images:
 
 After convert, copy to the character folder in assets:
 
-`fd -e png kiyohime -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/kiyohime`
+`fd -e png yamausagi -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/yamausagi`
 
 Print all cards (excluding char and avatar):
 
@@ -24,8 +24,8 @@ Blank JSON template:
 
 ```json
   {
-    "name": "Kiyohime",
-    "character_card": "kiyohime/kiyohime-char.png",
+    "name": "yamausagi",
+    "character_card": "yamausagi/yamausagi-char.png",
     "cards": [
       { "id": "d6fc26b2", "name": "", "url": "" },
       { "id": "1217f957", "name": "", "url": "" },
@@ -36,6 +36,6 @@ Blank JSON template:
       { "id": "f1f8ce7d", "name": "", "url": "" },
       { "id": "1d30d350", "name": "", "url": "" },
     ],
-    "avatar": "kiyohime/kiyohime-avatar.png"
+    "avatar": "yamausagi/yamausagi-avatar.png"
   }
 ```
