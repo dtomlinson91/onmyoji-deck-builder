@@ -208,5 +208,120 @@
       { "id": "99057ab4", "name": "Roar", "url": "shuten_doji/shuten_doji-roar.png" }
     ],
     "avatar": "shuten_doji/shuten_doji-avatar.png"
+  },
+  {
+    "name": "Hangan",
+    "character_card": "hangan/hangan-char.png",
+    "cards": [
+      { "id": "03db4dca", "name": "Brush of Death", "url": "hangan/hangan-brush_of_death.png" },
+      { "id": "67269486", "name": "Brush of Death", "url": "hangan/hangan-brush_of_death.png" },
+      { "id": "96b233d6", "name": "Condem", "url": "hangan/hangan-condem.png" },
+      { "id": "1680de4b", "name": "Condem", "url": "hangan/hangan-condem.png" },
+      { "id": "b7c207c4", "name": "Death Penalty", "url": "hangan/hangan-death_penalty.png" },
+      { "id": "8f3c289a", "name": "Death Penalty", "url": "hangan/hangan-death_penalty.png" },
+      { "id": "d8cf08d9", "name": "Evolved: Hangan", "url": "hangan/hangan-evolved.png" },
+      { "id": "62424016", "name": "Evolved: Hangan", "url": "hangan/hangan-evolved.png" },
+      { "id": "83a9a0a5", "name": "No Mercy", "url": "hangan/hangan-no_mercy.png" },
+      { "id": "a4c12fe5", "name": "No Mercy", "url": "hangan/hangan-no_mercy.png" },
+      { "id": "d6bc0293", "name": "Reap", "url": "hangan/hangan-reap.png" },
+      { "id": "f79d69df", "name": "Reap", "url": "hangan/hangan-reap.png" },
+      { "id": "03b74a3d", "name": "Soul Reap", "url": "hangan/hangan-soul_reap.png" },
+      { "id": "75f107c1", "name": "Soul Reap", "url": "hangan/hangan-soul_reap.png" },
+      { "id": "32a50c9d", "name": "Whims of Death", "url": "hangan/hangan-whims_of_death.png" },
+      { "id": "d9559bc0", "name": "Whims of Death", "url": "hangan/hangan-whims_of_death.png" }
+    ],
+    "avatar": "hangan/hangan-avatar.png"
+  },
+  {
+    "name": "Aobozu",
+    "character_card": "aobozu/aobozu-char.png",
+    "cards": [
+      { "id": "6bdf04ec", "name": "Buddah Signet", "url": "aobozu/aobozu-buddah_signet.png" },
+      { "id": "a6acbc12", "name": "Buddah Signet", "url": "aobozu/aobozu-buddah_signet.png" },
+      { "id": "d3400e3f", "name": "Buddah's Light", "url": "aobozu/aobozu-buddahs_light.png" },
+      { "id": "dc166f65", "name": "Buddah's Light", "url": "aobozu/aobozu-buddahs_light.png" },
+      { "id": "cc115727", "name": "Reversal", "url": "aobozu/aobozu-dharmic_reversal.png" },
+      { "id": "46f9d11e", "name": "Reversal", "url": "aobozu/aobozu-dharmic_reversal.png" },
+      { "id": "f1b94530", "name": "Evolved: Aobozu", "url": "aobozu/aobozu-evolved.png" },
+      { "id": "06c8e5d9", "name": "Evolved: Aobozu", "url": "aobozu/aobozu-evolved.png" },
+      { "id": "0b60cb35", "name": "Heart of Zen", "url": "aobozu/aobozu-heart_of_zen.png" },
+      { "id": "47aca4b3", "name": "Heart of Zen", "url": "aobozu/aobozu-heart_of_zen.png" },
+      { "id": "d0e9035c", "name": "Mercy", "url": "aobozu/aobozu-mercy.png" },
+      { "id": "c08fb5a4", "name": "Mercy", "url": "aobozu/aobozu-mercy.png" },
+      { "id": "e4e7ce57", "name": "Reincarnation", "url": "aobozu/aobozu-reincarnation.png" },
+      { "id": "f29d827a", "name": "Reincarnation", "url": "aobozu/aobozu-reincarnation.png" },
+      { "id": "57c5eff6", "name": "Sacrifice", "url": "aobozu/aobozu-sacrifice.png" },
+      { "id": "76f87ccf", "name": "Sacrifice", "url": "aobozu/aobozu-sacrifice.png" }
+    ],
+    "avatar": "aobozu/aobozu-avatar.png"
+  },
+  {
+    "name": "Aoandon",
+    "character_card": "aoandon/aoandon-char.png",
+    "cards": [
+      { "id": "3310a6f4", "name": "Enlightenment", "url": "aoandon/aoandon-enlightenment.png" },
+      { "id": "854ec085", "name": "Enlightenment", "url": "aoandon/aoandon-enlightenment.png" },
+      { "id": "eec05313", "name": "Evolved: Aoandon", "url": "aoandon/aoandon-evolved.png" },
+      { "id": "93096cd6", "name": "Evolved: Aoandon", "url": "aoandon/aoandon-evolved.png" },
+      { "id": "b67203ed", "name": "Fire of Tails", "url": "aoandon/aoandon-fire_of_tails.png" },
+      { "id": "03865489", "name": "Fire of Tails", "url": "aoandon/aoandon-fire_of_tails.png" },
+      { "id": "6f498d74", "name": "Ghost Stories", "url": "aoandon/aoandon-ghost_stories.png" },
+      { "id": "bef25301", "name": "Ghost Stories", "url": "aoandon/aoandon-ghost_stories.png" },
+      { "id": "660410de", "name": "Lantern Drain", "url": "aoandon/aoandon-lantern_drain.png" },
+      { "id": "0a415247", "name": "Lantern Drain", "url": "aoandon/aoandon-lantern_drain.png" },
+      { "id": "20c8f5b3", "name": "Lantern Support", "url": "aoandon/aoandon-lantern_support.png" },
+      { "id": "e6dc93d7", "name": "Lantern Support", "url": "aoandon/aoandon-lantern_support.png" },
+      { "id": "d1ff9bdf", "name": "Phantom Flame", "url": "aoandon/aoandon-phantom_flame.png" },
+      { "id": "c0177f8f", "name": "Phantom Flame", "url": "aoandon/aoandon-phantom_flame.png" },
+      { "id": "ac9a5854", "name": "Undying Flame", "url": "aoandon/aoandon-undying_flame.png" },
+      { "id": "cf5d5b8f", "name": "Undying Flame", "url": "aoandon/aoandon-undying_flame.png" }
+    ],
+    "avatar": "aoandon/aoandon-avatar.png"
+  },
+  {
+    "name": "Jikikaeru",
+    "character_card": "jikikaeru/jikikaeru-char.png",
+    "cards": [
+      { "id": "dda1ddcc", "name": "Change of Luck", "url": "jikikaeru/jikikaeru-change_of_luck.png" },
+      { "id": "be6ef8ab", "name": "Change of Luck", "url": "jikikaeru/jikikaeru-change_of_luck.png" },
+      { "id": "1e0599be", "name": "Dice Bomb", "url": "jikikaeru/jikikaeru-dice_bomb.png" },
+      { "id": "11c7590d", "name": "Dice Bomb", "url": "jikikaeru/jikikaeru-dice_bomb.png" },
+      { "id": "7ff07a2a", "name": "Evolved: Jikikaeru", "url": "jikikaeru/jikikaeru-evolved.png" },
+      { "id": "57d32efb", "name": "Evolved: Jikikaeru", "url": "jikikaeru/jikikaeru-evolved.png" },
+      { "id": "42051b0e", "name": "Mahjong Cheat", "url": "jikikaeru/jikikaeru-mahjong_cheat.png" },
+      { "id": "986084eb", "name": "Mahjong Cheat", "url": "jikikaeru/jikikaeru-mahjong_cheat.png" },
+      { "id": "93434e71", "name": "Ready Hand", "url": "jikikaeru/jikikaeru-ready_hand.png" },
+      { "id": "90038b77", "name": "Ready Hand", "url": "jikikaeru/jikikaeru-ready_hand.png" },
+      { "id": "b18a1beb", "name": "Roll of the Dice", "url": "jikikaeru/jikikaeru-roll_of_the_dice.png" },
+      { "id": "7607e21d", "name": "Roll of the Dice", "url": "jikikaeru/jikikaeru-roll_of_the_dice.png" },
+      { "id": "d87f8dfd", "name": "Tile Fling", "url": "jikikaeru/jikikaeru-tile_fling.png" },
+      { "id": "bfd97541", "name": "Tile Fling", "url": "jikikaeru/jikikaeru-tile_fling.png" },
+      { "id": "eeeab595", "name": "Winning Hand", "url": "jikikaeru/jikikaeru-winning_hand.png" },
+      { "id": "9ce56a94", "name": "Winning Hand", "url": "jikikaeru/jikikaeru-winning_hand.png" }
+    ],
+    "avatar": "jikikaeru/jikikaeru-avatar.png"
+  },
+  {
+    "name": "Kiyohime",
+    "character_card": "kiyohime/kiyohime-char.png",
+    "cards": [
+      { "id": "16f767c1", "name": "Evolved: Kiyohime", "url": "kiyohime/kiyohime-evolved.png" },
+      { "id": "a5175fa9", "name": "Evolved: Kiyohime", "url": "kiyohime/kiyohime-evolved.png" },
+      { "id": "fdf5be4b", "name": "Kiss of Fire", "url": "kiyohime/kiyohime-kiss_of_fire.png" },
+      { "id": "657d3b26", "name": "Kiss of Fire", "url": "kiyohime/kiyohime-kiss_of_fire.png" },
+      { "id": "67487c7b", "name": "Lady Snake", "url": "kiyohime/kiyohime-lady_snake.png" },
+      { "id": "ea411e96", "name": "Lady Snake", "url": "kiyohime/kiyohime-lady_snake.png" },
+      { "id": "16ed5582", "name": "Nameless Venom", "url": "kiyohime/kiyohime-nameless_venom.png" },
+      { "id": "88ffab97", "name": "Nameless Venom", "url": "kiyohime/kiyohime-nameless_venom.png" },
+      { "id": "8a5fff03", "name": "Sacrificial Fire", "url": "kiyohime/kiyohime-sacrificial_fire.png" },
+      { "id": "cc9572ed", "name": "Sacrificial Fire", "url": "kiyohime/kiyohime-sacrificial_fire.png" },
+      { "id": "bd2097c5", "name": "Serpent Lash", "url": "kiyohime/kiyohime-serpent_lash.png" },
+      { "id": "f21d8deb", "name": "Serpent Lash", "url": "kiyohime/kiyohime-serpent_lash.png" },
+      { "id": "1ed2edac", "name": "Shield of Poison", "url": "kiyohime/kiyohime-shield_of_poison.png" },
+      { "id": "b6825965", "name": "Shield of Poison", "url": "kiyohime/kiyohime-shield_of_poison.png" },
+      { "id": "22e92048", "name": "Venom Frenzy", "url": "kiyohime/kiyohime-venom_frenzy.png" },
+      { "id": "13de3ade", "name": "Venom Frenzy", "url": "kiyohime/kiyohime-venom_frenzy.png" }
+    ],
+    "avatar": "kiyohime/kiyohime-avatar.png"
   }
 ]
