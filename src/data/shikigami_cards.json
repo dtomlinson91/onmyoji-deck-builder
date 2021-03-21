@@ -1,0 +1,166 @@
+[
+  {
+    "header": "Group 1"
+  },
+  {
+    "name": "Hakuro",
+    "character_card": "hakuro/hakuro-char.png",
+    "cards": [
+      { "id": "23c8ab29", "name": "Hanare", "url": "hakuro/hakuro-hanare.png" },
+      { "id": "58472d92", "name": "Hanare", "url": "hakuro/hakuro-hanare.png" },
+      { "id": "4210b5bb", "name": "Protection", "url": "hakuro/hakuro-protection.png" },
+      { "id": "1d512961", "name": "Protection", "url": "hakuro/hakuro-protection.png" },
+      { "id": "345fcb75", "name": "Perfect Shot", "url": "hakuro/hakuro-perfect_shot.png" },
+      { "id": "1d6b91ab", "name": "Perfect Shot", "url": "hakuro/hakuro-perfect_shot.png" },
+      { "id": "5aa61d05", "name": "Non Self", "url": "hakuro/hakuro-non_self.png" },
+      { "id": "006ebea2", "name": "Non Self", "url": "hakuro/hakuro-non_self.png" },
+      { "id": "cc861795", "name": "Evolved: Hakuro", "url": "hakuro/hakuro-evolved.png" },
+      { "id": "c34695f0", "name": "Evolved: Hakuro", "url": "hakuro/hakuro-evolved.png" },
+      { "id": "8086ded8", "name": "Kai", "url": "hakuro/hakuro-kai.png" },
+      { "id": "d0df74c2", "name": "Kai", "url": "hakuro/hakuro-kai.png" },
+      { "id": "b8dfe5be", "name": "Zanshin", "url": "hakuro/hakuro-zanshin.png" },
+      { "id": "d72b3867", "name": "Zanshin", "url": "hakuro/hakuro-zanshin.png" },
+      { "id": "e715a175", "name": "Sharpshot", "url": "hakuro/hakuro-sharpshot.png" },
+      { "id": "0b19a276", "name": "Sharpshot", "url": "hakuro/hakuro-sharpshot.png" }
+    ],
+    "avatar": "hakuro/hakuro-avatar.png"
+  },
+  {
+    "name": "Samurai X",
+    "character_card": "samurai_x/samurai_x-char.png",
+    "cards": [
+      { "id": "1a89af30", "name": "Evovled", "url": "samurai_x/samurai_x-evolved.png" },
+      { "id": "21265148", "name": "Evovled", "url": "samurai_x/samurai_x-evolved.png" },
+      { "id": "7d7b03d2", "name": "Bull Rush", "url": "samurai_x/samurai_x-bull_rush.png" },
+      { "id": "c74548ce", "name": "Bull Rush", "url": "samurai_x/samurai_x-bull_rush.png" },
+      { "id": "1d34d24e", "name": "Immovable", "url": "samurai_x/samurai_x-immovable.png" },
+      { "id": "a16d701b", "name": "Immovable", "url": "samurai_x/samurai_x-immovable.png" },
+      { "id": "6dc6da5d", "name": "Dust Blade", "url": "samurai_x/samurai_x-dust_blade.png" },
+      { "id": "b614c409", "name": "Dust Blade", "url": "samurai_x/samurai_x-dust_blade.png" },
+      { "id": "868fed7d", "name": "Binding Array", "url": "samurai_x/samurai_x-binding_array.png" },
+      { "id": "e91253e9", "name": "Binding Array", "url": "samurai_x/samurai_x-binding_array.png" },
+      { "id": "2a6f5c24", "name": "Shield of Dust", "url": "samurai_x/samurai_x-shield_of_dust.png" },
+      { "id": "64a837a5", "name": "Shield of Dust", "url": "samurai_x/samurai_x-shield_of_dust.png" },
+      { "id": "834f18b4", "name": "Moving Fortress", "url": "samurai_x/samurai_x-moving_fortress.png" },
+      { "id": "97239b92", "name": "Moving Fortress", "url": "samurai_x/samurai_x-moving_fortress.png" },
+      { "id": "7a0c5657", "name": "Wall of the Ancients", "url": "samurai_x/samurai_x-wall_of_the_ancients.png" },
+      { "id": "40ac9ae2", "name": "Wall of the Ancients", "url": "samurai_x/samurai_x-wall_of_the_ancients.png" }
+    ],
+    "avatar": "samurai_x/samurai_x-avatar.png"
+  },
+  {
+    "name": "Ibaraki Doji",
+    "character_card": "ibaraki_doji/ibaraki_doji-char.png",
+    "cards": [
+      { "id": "7eb59ee9", "name": "Black Flame Hand", "url": "ibaraki_doji/ibaraki_doji-black_flame_hand.png" },
+      { "id": "58281234", "name": "Black Flame Hand", "url": "ibaraki_doji/ibaraki_doji-black_flame_hand.png" },
+      { "id": "ec9012fa", "name": "Blazing Fist", "url": "ibaraki_doji/ibaraki_doji-blazing_fist.png" },
+      { "id": "90857399", "name": "Blazing Fist", "url": "ibaraki_doji/ibaraki_doji-blazing_fist.png" },
+      { "id": "ebb48e83", "name": "Demon of Rashomon", "url": "ibaraki_doji/ibaraki_doji-demon_of_rashomon.png" },
+      { "id": "d48dead8", "name": "Demon of Rashomon", "url": "ibaraki_doji/ibaraki_doji-demon_of_rashomon.png" },
+      { "id": "a78431d8", "name": "Demon's Hand", "url": "ibaraki_doji/ibaraki_doji-demons_hand.png" },
+      { "id": "f84c61e2", "name": "Demon's Hand", "url": "ibaraki_doji/ibaraki_doji-demons_hand.png" },
+      { "id": "103ef376", "name": "Evolved: Ibaraki Doji", "url": "ibaraki_doji/ibaraki_doji-evolved.png" },
+      { "id": "cf4b7b59", "name": "Evolved: Ibaraki Doji", "url": "ibaraki_doji/ibaraki_doji-evolved.png" },
+      { "id": "caf967df", "name": "Infernal Hand", "url": "ibaraki_doji/ibaraki_doji-infernal_hand.png" },
+      { "id": "5d1c9ab7", "name": "Infernal Hand", "url": "ibaraki_doji/ibaraki_doji-infernal_hand.png" },
+      { "id": "c2f7660b", "name": "Rage Outlet", "url": "ibaraki_doji/ibaraki_doji-rage_outlet.png" },
+      { "id": "c29e48de", "name": "Rage Outlet", "url": "ibaraki_doji/ibaraki_doji-rage_outlet.png" },
+      { "id": "9f63acfb", "name": "Sever Arm", "url": "ibaraki_doji/ibaraki_doji-sever_arm.png" },
+      { "id": "f9380f3b", "name": "Sever Arm", "url": "ibaraki_doji/ibaraki_doji-sever_arm.png" }
+    ],
+    "avatar": "ibaraki_doji/ibaraki_doji-avatar.png"
+  },
+  {
+    "name": "Ootengu",
+    "character_card": "ootengu/ootengu-char.png",
+    "cards": [
+      { "id": "9af464b1", "name": "Dark Featherblade", "url": "ootengu/ootengu-dark_featherblade.png" },
+      { "id": "027ef4c6", "name": "Dark Featherblade", "url": "ootengu/ootengu-dark_featherblade.png" },
+      { "id": "68c8f118", "name": "Evolved: Ootengu", "url": "ootengu/ootengu-evolved.png" },
+      { "id": "f731fca9", "name": "Evolved: Ootengu", "url": "ootengu/ootengu-evolved.png" },
+      { "id": "bc39f712", "name": "Featherblade Storm", "url": "ootengu/ootengu-featherblade_storm.png" },
+      { "id": "90990cd5", "name": "Featherblade Storm", "url": "ootengu/ootengu-featherblade_storm.png" },
+      { "id": "eb20d335", "name": "I am Justice", "url": "ootengu/ootengu-i_am_justice.png" },
+      { "id": "52a5c6ea", "name": "I am Justice", "url": "ootengu/ootengu-i_am_justice.png" },
+      { "id": "8213c9c6", "name": "Lord of the Storm", "url": "ootengu/ootengu-lord_of_the_storm.png" },
+      { "id": "e11e2fba", "name": "Lord of the Storm", "url": "ootengu/ootengu-lord_of_the_storm.png" },
+      { "id": "2ab5bf45", "name": "Shield of Storm", "url": "ootengu/ootengu-shield_of_storm.png" },
+      { "id": "77c724c2", "name": "Shield of Storm", "url": "ootengu/ootengu-shield_of_storm.png" },
+      { "id": "b37a9e12", "name": "Tengu's Fury", "url": "ootengu/ootengu-tengus_fury.png" },
+      { "id": "d39da094", "name": "Tengu's Fury", "url": "ootengu/ootengu-tengus_fury.png" },
+      { "id": "6ad67909", "name": "Wind Blast", "url": "ootengu/ootengu-wind_blast.png" },
+      { "id": "f800c894", "name": "Wind Blast", "url": "ootengu/ootengu-wind_blast.png" }
+    ],
+    "avatar": "ootengu/ootengu-avatar.png"
+  },
+  {
+    "name": "Hououka",
+    "character_card": "hououka/hououka-char.png",
+    "cards": [
+      { "id": "f98d894b", "name": "Ascension", "url": "hououka/hououka-ascension.png" },
+      { "id": "f08efb12", "name": "Ascension", "url": "hououka/hououka-ascension.png" },
+      { "id": "0882462a", "name": "Evolved: Hououka", "url": "hououka/hououka-evolved.png" },
+      { "id": "27fd5685", "name": "Evolved: Hououka", "url": "hououka/hououka-evolved.png" },
+      { "id": "4775e033", "name": "Ignite", "url": "hououka/hououka-ignite.png" },
+      { "id": "a789f8ef", "name": "Ignite", "url": "hououka/hououka-ignite.png" },
+      { "id": "534a788c", "name": "Immolating Quill", "url": "hououka/hououka-immolating_quill.png" },
+      { "id": "2d149086", "name": "Immolating Quill", "url": "hououka/hououka-immolating_quill.png" },
+      { "id": "21301dae", "name": "Phoenix Cry", "url": "hououka/hououka-phoenix_cry.png" },
+      { "id": "a8432c45", "name": "Phoenix Cry", "url": "hououka/hououka-phoenix_cry.png" },
+      { "id": "635f2c7f", "name": "Phoenix Flame", "url": "hououka/hououka-phoenix_flame.png" },
+      { "id": "bd23f1aa", "name": "Phoenix Flame", "url": "hououka/hououka-phoenix_flame.png" },
+      { "id": "b1be2ed1", "name": "Soar", "url": "hououka/hououka-soar.png" },
+      { "id": "8ebec60e", "name": "Soar", "url": "hououka/hououka-soar.png" },
+      { "id": "f51520ba", "name": "Swaying Blaze", "url": "hououka/hououka-swaying_blaze.png" },
+      { "id": "787ae817", "name": "Swaying Blaze", "url": "hououka/hououka-swaying_blaze.png" }
+    ],
+    "avatar": "hououka/hououka-avatar.png"
+  },
+  {
+    "name": "Ubume",
+    "character_card": "ubume/ubume-char.png",
+    "cards": [
+      { "id": "72c28428", "name": "Crane Dance", "url": "ubume/ubume-crane_dance.png" },
+      { "id": "59ab7011", "name": "Crane Dance", "url": "ubume/ubume-crane_dance.png" },
+      { "id": "8be4fd04", "name": "Evolved: Ubume", "url": "ubume/ubume-evolved.png" },
+      { "id": "eebee280", "name": "Evolved: Ubume", "url": "ubume/ubume-evolved.png" },
+      { "id": "434e4b48", "name": "Golden Bird", "url": "ubume/ubume-golden_bird.png" },
+      { "id": "0126bfed", "name": "Golden Bird", "url": "ubume/ubume-golden_bird.png" },
+      { "id": "cf49b739", "name": "Hack and Slash", "url": "ubume/ubume-hack_and_slash.png" },
+      { "id": "28a57d58", "name": "Hack and Slash", "url": "ubume/ubume-hack_and_slash.png" },
+      { "id": "8676b212", "name": "Motherhood", "url": "ubume/ubume-motherhood.png" },
+      { "id": "74f8c877", "name": "Motherhood", "url": "ubume/ubume-motherhood.png" },
+      { "id": "df51b49a", "name": "Raid", "url": "ubume/ubume-raid.png" },
+      { "id": "d55089f0", "name": "Raid", "url": "ubume/ubume-raid.png" },
+      { "id": "81edb5cf", "name": "Shadow Wing", "url": "ubume/ubume-shadow_wing.png" },
+      { "id": "99cb69ec", "name": "Shadow Wing", "url": "ubume/ubume-shadow_wing.png" },
+      { "id": "1f19fa8e", "name": "Umbrella Sword", "url": "ubume/ubume-umbrella_sword.png" },
+      { "id": "ad56eae2", "name": "Umbrella Sword", "url": "ubume/ubume-umbrella_sword.png" }
+    ],
+    "avatar": "ubume/ubume-avatar.png"
+  },
+  {
+    "name": "Umibozu",
+    "character_card": "umibozu/umibozu-char.png",
+    "cards": [
+      { "id": "5930f94b", "name": "Blessed Water", "url": "umibozu/umibozu-blessed_water.png" },
+      { "id": "c0753f17", "name": "Blessed Water", "url": "umibozu/umibozu-blessed_water.png" },
+      { "id": "43d92212", "name": "Evolved: Umibozu", "url": "umibozu/umibozu-evolved.png" },
+      { "id": "c6be9e57", "name": "Evolved: Umibozu", "url": "umibozu/umibozu-evolved.png" },
+      { "id": "ce402df1", "name": "Giant Waves", "url": "umibozu/umibozu-giant_waves.png" },
+      { "id": "708d29b0", "name": "Giant Waves", "url": "umibozu/umibozu-giant_waves.png" },
+      { "id": "b49275c6", "name": "Healing Water", "url": "umibozu/umibozu-healing_water.png" },
+      { "id": "74e7bdc4", "name": "Healing Water", "url": "umibozu/umibozu-healing_water.png" },
+      { "id": "38297f66", "name": "Master of the Sea", "url": "umibozu/umibozu-master_of_the_sea.png" },
+      { "id": "621303f7", "name": "Master of the Sea", "url": "umibozu/umibozu-master_of_the_sea.png" },
+      { "id": "135c520a", "name": "Shield of the Sea", "url": "umibozu/umibozu-shield_of_the_sea.png" },
+      { "id": "4be79e70", "name": "Shield of the Sea", "url": "umibozu/umibozu-shield_of_the_sea.png" },
+      { "id": "c73493d8", "name": "Spectral", "url": "umibozu/umibozu-spectral.png" },
+      { "id": "bb14e042", "name": "Spectral", "url": "umibozu/umibozu-spectral.png" },
+      { "id": "6c0aac31", "name": "Waterspout", "url": "umibozu/umibozu-waterspout.png" },
+      { "id": "dad679e3", "name": "Waterspout", "url": "umibozu/umibozu-waterspout.png" }
+    ],
+    "avatar": "umibozu/umibozu-avatar.png"
+  }
+]
