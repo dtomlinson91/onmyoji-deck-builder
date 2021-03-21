@@ -4,7 +4,7 @@ import extract_combat
 import extract_spell
 import extract_form
 
-SHIKIGAMI_NAME = "umibozu"
+SHIKIGAMI_NAME = "shuten_doji"
 
 
 def main(shikigami_name: str):

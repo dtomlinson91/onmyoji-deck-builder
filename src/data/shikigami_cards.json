@@ -162,5 +162,51 @@
       { "id": "dad679e3", "name": "Waterspout", "url": "umibozu/umibozu-waterspout.png" }
     ],
     "avatar": "umibozu/umibozu-avatar.png"
+  },
+  {
+    "name": "Satori",
+    "character_card": "satori/satori-char.png",
+    "cards": [
+      { "id": "0dcbdec7", "name": "Club Bomb", "url": "satori/satori-club_bomb.png" },
+      { "id": "236118b0", "name": "Club Bomb", "url": "satori/satori-club_bomb.png" },
+      { "id": "c0d53ed0", "name": "Evolved: Satori", "url": "satori/satori-evolved.png" },
+      { "id": "8bbe418d", "name": "Evolved: Satori", "url": "satori/satori-evolved.png" },
+      { "id": "632f3e05", "name": "Extort", "url": "satori/satori-extort.png" },
+      { "id": "00e9b521", "name": "Extort", "url": "satori/satori-extort.png" },
+      { "id": "00e3f91e", "name": "Grudge", "url": "satori/satori-grudge.png" },
+      { "id": "2edc99c8", "name": "Grudge", "url": "satori/satori-grudge.png" },
+      { "id": "d71219f0", "name": "Imitation", "url": "satori/satori-imitation.png" },
+      { "id": "93e31fd7", "name": "Imitation", "url": "satori/satori-imitation.png" },
+      { "id": "701c0137", "name": "Mind Maze", "url": "satori/satori-mind_maze.png" },
+      { "id": "7b544ee0", "name": "Mind Maze", "url": "satori/satori-mind_maze.png" },
+      { "id": "c7b77076", "name": "Mind Read", "url": "satori/satori-mind_read.png" },
+      { "id": "f3f4f0c3", "name": "Mind Read", "url": "satori/satori-mind_read.png" },
+      { "id": "3192849e", "name": "Vision", "url": "satori/satori-vision.png" },
+      { "id": "3214dc6e", "name": "Vision", "url": "satori/satori-vision.png" }
+    ],
+    "avatar": "satori/satori-avatar.png"
+  },
+  {
+    "name": "Shuten Doji",
+    "character_card": "shuten_doji/shuten_doji-char.png",
+    "cards": [
+      { "id": "68d4b97f", "name": "Demon King", "url": "shuten_doji/shuten_doji-demon_king.png" },
+      { "id": "91b95545", "name": "Demon King", "url": "shuten_doji/shuten_doji-demon_king.png" },
+      { "id": "bdbc7ff5", "name": "Demon Parade", "url": "shuten_doji/shuten_doji-demon_parade.png" },
+      { "id": "3c68bcfc", "name": "Demon Parade", "url": "shuten_doji/shuten_doji-demon_parade.png" },
+      { "id": "b27189a4", "name": "Divine Child", "url": "shuten_doji/shuten_doji-divine_child.png" },
+      { "id": "817484a7", "name": "Divine Child", "url": "shuten_doji/shuten_doji-divine_child.png" },
+      { "id": "0e0109d7", "name": "Drunken Inspiration", "url": "shuten_doji/shuten_doji-drunken_inspiration.png" },
+      { "id": "5ba8ea07", "name": "Drunken Inspiration", "url": "shuten_doji/shuten_doji-drunken_inspiration.png" },
+      { "id": "4f0b02bf", "name": "Endless Rage", "url": "shuten_doji/shuten_doji-endless_rage.png" },
+      { "id": "d52f0b87", "name": "Endless Rage", "url": "shuten_doji/shuten_doji-endless_rage.png" },
+      { "id": "91e20d43", "name": "Evolved: Shuten Doji", "url": "shuten_doji/shuten_doji-evolved.png" },
+      { "id": "ac5de923", "name": "Evolved: Shuten Doji", "url": "shuten_doji/shuten_doji-evolved.png" },
+      { "id": "795377b1", "name": "Madness", "url": "shuten_doji/shuten_doji-madness.png" },
+      { "id": "563e9aee", "name": "Madness", "url": "shuten_doji/shuten_doji-madness.png" },
+      { "id": "134ce1d0", "name": "Roar", "url": "shuten_doji/shuten_doji-roar.png" },
+      { "id": "99057ab4", "name": "Roar", "url": "shuten_doji/shuten_doji-roar.png" }
+    ],
+    "avatar": "shuten_doji/shuten_doji-avatar.png"
   }
 ]
