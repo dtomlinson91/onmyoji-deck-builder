@@ -6,7 +6,7 @@ fd -e png -x rm {}
 
 After convert, copy to the character folder in assets:
 
-fd -e png hiyoribou -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/hiyoribou
+fd -e png kujira -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/kujira
 
 Print all cards (excluding char and avatar):
 
@@ -24,8 +24,8 @@ Blank JSON template:
 
 ```json
   {
-    "name": "hiyoribou",
-    "character_card": "hiyoribou/hiyoribou-char.png",
+    "name": "kujira",
+    "character_card": "kujira/kujira-char.png",
     "cards": [
       { "id": "d6fc26b2", "name": "", "url": "" },
       { "id": "1217f957", "name": "", "url": "" },
@@ -36,6 +36,6 @@ Blank JSON template:
       { "id": "f1f8ce7d", "name": "", "url": "" },
       { "id": "1d30d350", "name": "", "url": "" },
     ],
-    "avatar": "hiyoribou/hiyoribou-avatar.png"
+    "avatar": "kujira/kujira-avatar.png"
   }
 ```

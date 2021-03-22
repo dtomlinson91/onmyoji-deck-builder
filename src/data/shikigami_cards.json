@@ -1,6 +1,6 @@
 [
   {
-    "header": "Group 1"
+    "header": "Classic Card Pack"
   },
   {
     "name": "Hakuro",
@@ -29,8 +29,8 @@
     "name": "Samurai X",
     "character_card": "samurai_x/samurai_x-char.png",
     "cards": [
-      { "id": "1a89af30", "name": "Evovled", "url": "samurai_x/samurai_x-evolved.png" },
-      { "id": "21265148", "name": "Evovled", "url": "samurai_x/samurai_x-evolved.png" },
+      { "id": "1a89af30", "name": "Evovled: Samurai X", "url": "samurai_x/samurai_x-evolved.png" },
+      { "id": "21265148", "name": "Evovled: Samurai X", "url": "samurai_x/samurai_x-evolved.png" },
       { "id": "7d7b03d2", "name": "Bull Rush", "url": "samurai_x/samurai_x-bull_rush.png" },
       { "id": "c74548ce", "name": "Bull Rush", "url": "samurai_x/samurai_x-bull_rush.png" },
       { "id": "1d34d24e", "name": "Immovable", "url": "samurai_x/samurai_x-immovable.png" },
@@ -693,6 +693,12 @@
     "avatar": "youko/youko-avatar.png"
   },
   {
+    "header": "Nightless Fire"
+  },
+  {
+    "divider": true
+  },
+  {
     "name": "Karasu Tengu",
     "character_card": "karasu_tengu/karasu_tengu-char.png",
     "cards": [
@@ -852,5 +858,172 @@
       { "id": "e2b59ef4", "name": "Winter Sun", "url": "hiyoribou/hiyoribou-winter_sun.png" }
     ],
     "avatar": "hiyoribou/hiyoribou-avatar.png"
+  },
+  {
+    "header": "Moonlit Fantasy"
+  },
+  {
+    "divider": true
+  },
+  {
+    "name": "Vampira",
+    "character_card": "vampira/vampira-char.png",
+    "cards": [
+      { "id": "eb96345a", "name": "Blood Rage", "url": "vampira/vampira-blood_rage.png" },
+      { "id": "782a4e54", "name": "Blood Rage", "url": "vampira/vampira-blood_rage.png" },
+      { "id": "e2c2b240", "name": "Blood Scent", "url": "vampira/vampira-blood_scent.png" },
+      { "id": "478c757c", "name": "Blood Scent", "url": "vampira/vampira-blood_scent.png" },
+      { "id": "51aaf228", "name": "Blood Strike", "url": "vampira/vampira-blood_strike.png" },
+      { "id": "60851940", "name": "Blood Strike", "url": "vampira/vampira-blood_strike.png" },
+      { "id": "77509e94", "name": "Bloodlust", "url": "vampira/vampira-bloodlust.png" },
+      { "id": "7afa55e5", "name": "Bloodlust", "url": "vampira/vampira-bloodlust.png" },
+      { "id": "1962f8e3", "name": "Evolved: Vampira", "url": "vampira/vampira-evolved.png" },
+      { "id": "f6f03e25", "name": "Evolved: Vampira", "url": "vampira/vampira-evolved.png" },
+      { "id": "d7f18318", "name": "First Embrace", "url": "vampira/vampira-first_embrace.png" },
+      { "id": "86859a3b", "name": "First Embrace", "url": "vampira/vampira-first_embrace.png" },
+      { "id": "78dee8a7", "name": "Scarlet Moon", "url": "vampira/vampira-scarlet_moon.png" },
+      { "id": "b105d343", "name": "Scarlet Moon", "url": "vampira/vampira-scarlet_moon.png" },
+      { "id": "7f1811f6", "name": "Shield of Bats", "url": "vampira/vampira-shield_of_bats.png" },
+      { "id": "b2af2550", "name": "Shield of Bats", "url": "vampira/vampira-shield_of_bats.png" }
+    ],
+    "avatar": "vampira/vampira-avatar.png"
+  },
+  {
+    "name": "Takiyasha Hime",
+    "character_card": "takiyasha_hime/takiyasha_hime-char.png",
+    "cards": [
+      { "id": "e7776e4a", "name": "Castle of the Sun", "url": "takiyasha_hime/takiyasha_hime-castle_of_the_sun.png" },
+      { "id": "3894fa0b", "name": "Castle of the Sun", "url": "takiyasha_hime/takiyasha_hime-castle_of_the_sun.png" },
+      { "id": "7a3d624b", "name": "Crescent Moon Grief", "url": "takiyasha_hime/takiyasha_hime-crescent_moon_grief.png" },
+      { "id": "9660aee2", "name": "Crescent Moon Grief", "url": "takiyasha_hime/takiyasha_hime-crescent_moon_grief.png" },
+      { "id": "3a07086e", "name": "Endless Perdition", "url": "takiyasha_hime/takiyasha_hime-endless_perdition.png" },
+      { "id": "5e89fcd6", "name": "Endless Perdition", "url": "takiyasha_hime/takiyasha_hime-endless_perdition.png" },
+      { "id": "d2749e6a", "name": "Evolved: Takiyasha Hime", "url": "takiyasha_hime/takiyasha_hime-evolved.png" },
+      { "id": "d41bf8b3", "name": "Evolved: Takiyasha Hime", "url": "takiyasha_hime/takiyasha_hime-evolved.png" },
+      { "id": "0e471052", "name": "Moon Secrets", "url": "takiyasha_hime/takiyasha_hime-moon_secrets.png" },
+      { "id": "ebcdb5b5", "name": "Moon Secrets", "url": "takiyasha_hime/takiyasha_hime-moon_secrets.png" },
+      { "id": "38537b14", "name": "Moon Slash", "url": "takiyasha_hime/takiyasha_hime-moon_slash.png" },
+      { "id": "bb08b79a", "name": "Moon Slash", "url": "takiyasha_hime/takiyasha_hime-moon_slash.png" },
+      { "id": "55c3f48d", "name": "Shadowless Sun", "url": "takiyasha_hime/takiyasha_hime-shadowless_sun.png" },
+      { "id": "5827ea57", "name": "Shadowless Sun", "url": "takiyasha_hime/takiyasha_hime-shadowless_sun.png" },
+      { "id": "d4c2ed1e", "name": "Sleepless Moon", "url": "takiyasha_hime/takiyasha_hime-sleepless_moon.png" },
+      { "id": "bc082aa0", "name": "Sleepless Moon", "url": "takiyasha_hime/takiyasha_hime-sleepless_moon.png" }
+    ],
+    "avatar": "takiyasha_hime/takiyasha_hime-avatar.png"
+  },
+  {
+    "name": "Kaguya",
+    "character_card": "kaguya/kaguya-char.png",
+    "cards": [
+      { "id": "47dafe1e", "name": "Buddah's Stone Bowl", "url": "kaguya/kaguya-buddahs_stone_bowl.png" },
+      { "id": "07f5dcb4", "name": "Buddah's Stone Bowl", "url": "kaguya/kaguya-buddahs_stone_bowl.png" },
+      { "id": "4ea2ddad", "name": "Dragon Jewel", "url": "kaguya/kaguya-dragon_jewel.png" },
+      { "id": "a8ea3e57", "name": "Dragon Jewel", "url": "kaguya/kaguya-dragon_jewel.png" },
+      { "id": "680b1c7f", "name": "Evolved: Kaguya", "url": "kaguya/kaguya-evolved.png" },
+      { "id": "2044e4ec", "name": "Evolved: Kaguya", "url": "kaguya/kaguya-evolved.png" },
+      { "id": "909f73ba", "name": "Five Puzzles", "url": "kaguya/kaguya-five_puzzles.png" },
+      { "id": "7470c20a", "name": "Five Puzzles", "url": "kaguya/kaguya-five_puzzles.png" },
+      { "id": "cb1451f6", "name": "Horai Branch", "url": "kaguya/kaguya-horai_branch.png" },
+      { "id": "a841729c", "name": "Horai Branch", "url": "kaguya/kaguya-horai_branch.png" },
+      { "id": "d9f6dd48", "name": "Rat Fur", "url": "kaguya/kaguya-rat_fur.png" },
+      { "id": "2ebb7892", "name": "Rat Fur", "url": "kaguya/kaguya-rat_fur.png" },
+      { "id": "b5a5e7c0", "name": "Swallow's Cowry Shells", "url": "kaguya/kaguya-swallows_cowry_shells.png" },
+      { "id": "871aef29", "name": "Swallow's Cowry Shells", "url": "kaguya/kaguya-swallows_cowry_shells.png" },
+      { "id": "b8248ad0", "name": "Taketori Monogatari", "url": "kaguya/kaguya-taketori_monogatari.png" },
+      { "id": "784908d5", "name": "Taketori Monogatari", "url": "kaguya/kaguya-taketori_monogatari.png" }
+    ],
+    "avatar": "kaguya/kaguya-avatar.png"
+  },
+  {
+    "name": "Susabi",
+    "character_card": "susabi/susabi-char.png",
+    "cards": [
+      { "id": "75cd97c5", "name": "Afterglow", "url": "susabi/susabi-afterglow.png" },
+      { "id": "8791b0b6", "name": "Afterglow", "url": "susabi/susabi-afterglow.png" },
+      { "id": "d9cd65e3", "name": "Destiny Spiral", "url": "susabi/susabi-destiny_spiral.png" },
+      { "id": "7a564c4c", "name": "Destiny Spiral", "url": "susabi/susabi-destiny_spiral.png" },
+      { "id": "5b85e25e", "name": "Evolved: Susabi", "url": "susabi/susabi-evolved.png" },
+      { "id": "b312e1f4", "name": "Evolved: Susabi", "url": "susabi/susabi-evolved.png" },
+      { "id": "c96f47a2", "name": "Moon Fall", "url": "susabi/susabi-moon_fall.png" },
+      { "id": "401f7b5c", "name": "Moon Fall", "url": "susabi/susabi-moon_fall.png" },
+      { "id": "f019a600", "name": "Star Beam", "url": "susabi/susabi-star_beam.png" },
+      { "id": "f2045d5d", "name": "Star Beam", "url": "susabi/susabi-star_beam.png" },
+      { "id": "446c7963", "name": "Star Fall", "url": "susabi/susabi-star_fall.png" },
+      { "id": "ef4ec90d", "name": "Star Fall", "url": "susabi/susabi-star_fall.png" },
+      { "id": "d1e31c79", "name": "Stellar Field", "url": "susabi/susabi-stellar_field.png" },
+      { "id": "245a8352", "name": "Stellar Field", "url": "susabi/susabi-stellar_field.png" },
+      { "id": "a89ad53d", "name": "Vast Sea", "url": "susabi/susabi-vast_sea.png" },
+      { "id": "4c9e6496", "name": "Vast Sea", "url": "susabi/susabi-vast_sea.png" }
+    ],
+    "avatar": "susabi/susabi-avatar.png"
+  },
+  {
+    "name": "Higanbana",
+    "character_card": "higanbana/higanbana-char.png",
+    "cards": [
+      { "id": "8aff730f", "name": "Acheron Floral Field", "url": "higanbana/higanbana-acheron_floral_field.png" },
+      { "id": "098a5bdd", "name": "Acheron Floral Field", "url": "higanbana/higanbana-acheron_floral_field.png" },
+      { "id": "43d777af", "name": "Blood Fades", "url": "higanbana/higanbana-blood_fades.png" },
+      { "id": "1db7a5f3", "name": "Blood Fades", "url": "higanbana/higanbana-blood_fades.png" },
+      { "id": "390b83f5", "name": "Bloom Far Away", "url": "higanbana/higanbana-bloom_far_away.png" },
+      { "id": "933def31", "name": "Bloom Far Away", "url": "higanbana/higanbana-bloom_far_away.png" },
+      { "id": "d7768474", "name": "Crimson Flowers", "url": "higanbana/higanbana-crimson_flowers.png" },
+      { "id": "15e86e15", "name": "Crimson Flowers", "url": "higanbana/higanbana-crimson_flowers.png" },
+      { "id": "579c2152", "name": "Deadly Blooms", "url": "higanbana/higanbana-deadly_blooms.png" },
+      { "id": "c2313f26", "name": "Deadly Blooms", "url": "higanbana/higanbana-deadly_blooms.png" },
+      { "id": "c8e19495", "name": "Evolved: Higanbana", "url": "higanbana/higanbana-evolved.png" },
+      { "id": "f1052f00", "name": "Evolved: Higanbana", "url": "higanbana/higanbana-evolved.png" },
+      { "id": "566542b1", "name": "Higanbana Returns", "url": "higanbana/higanbana-higanbana_returns.png" },
+      { "id": "cb148405", "name": "Higanbana Returns", "url": "higanbana/higanbana-higanbana_returns.png" },
+      { "id": "5477f023", "name": "Road of Firelight", "url": "higanbana/higanbana-road_of_firelight.png" },
+      { "id": "8bb29dd2", "name": "Road of Firelight", "url": "higanbana/higanbana-road_of_firelight.png" }
+    ],
+    "avatar": "higanbana/higanbana-avatar.png"
+  },
+  {
+    "name": "Kujira",
+    "character_card": "kujira/kujira-char.png",
+    "cards": [
+      { "id": "42ffc8dd", "name": "Arena Protection", "url": "kujira/kujira-arena_protection.png" },
+      { "id": "267a21ed", "name": "Arena Protection", "url": "kujira/kujira-arena_protection.png" },
+      { "id": "e9e5a730", "name": "Evolved: Kujira", "url": "kujira/kujira-evolved.png" },
+      { "id": "976655bb", "name": "Evolved: Kujira", "url": "kujira/kujira-evolved.png" },
+      { "id": "a3efc8d8", "name": "Protection of Suzuka Mountain", "url": "kujira/kujira-protection_of_suzuka_mountain.png" },
+      { "id": "e34766db", "name": "Protection of Suzuka Mountain", "url": "kujira/kujira-protection_of_suzuka_mountain.png" },
+      { "id": "03c8b4be", "name": "Scale Protection", "url": "kujira/kujira-scale_protection.png" },
+      { "id": "9a420a97", "name": "Scale Protection", "url": "kujira/kujira-scale_protection.png" },
+      { "id": "792da2ce", "name": "Shield of Bones", "url": "kujira/kujira-shield_of_bones.png" },
+      { "id": "bb1444a2", "name": "Shield of Bones", "url": "kujira/kujira-shield_of_bones.png" },
+      { "id": "ffa4a0e7", "name": "Treasure of Suzuka Mountain", "url": "kujira/kujira-treasure_of_suzuka_mountain.png" },
+      { "id": "3178ffd0", "name": "Treasure of Suzuka Mountain", "url": "kujira/kujira-treasure_of_suzuka_mountain.png" },
+      { "id": "1c2ae238", "name": "Whale Bone: Open", "url": "kujira/kujira-whale_bone_open.png" },
+      { "id": "c3173365", "name": "Whale Bone: Open", "url": "kujira/kujira-whale_bone_open.png" },
+      { "id": "4eb6328f", "name": "Whale Bone: Station", "url": "kujira/kujira-whale_bone_station.png" },
+      { "id": "e59924c5", "name": "Whale Bone: Station", "url": "kujira/kujira-whale_bone_station.png" }
+    ],
+    "avatar": "kujira/kujira-avatar.png"
+  },
+  {
+    "name": "Yamakaze",
+    "character_card": "yamakaze/yamakaze-char.png",
+    "cards": [
+      { "id": "0c36ca96", "name": "Charge", "url": "yamakaze/yamakaze-charge.png" },
+      { "id": "87977ea3", "name": "Charge", "url": "yamakaze/yamakaze-charge.png" },
+      { "id": "554cca9b", "name": "Evolved: Yamakaze", "url": "yamakaze/yamakaze-evolved.png" },
+      { "id": "de90684b", "name": "Evolved: Yamakaze", "url": "yamakaze/yamakaze-evolved.png" },
+      { "id": "00fc9d0c", "name": "Power", "url": "yamakaze/yamakaze-power.png" },
+      { "id": "6cc5251d", "name": "Power", "url": "yamakaze/yamakaze-power.png" },
+      { "id": "45eb8cf5", "name": "Rapid", "url": "yamakaze/yamakaze-rapid.png" },
+      { "id": "faea2bf1", "name": "Rapid", "url": "yamakaze/yamakaze-rapid.png" },
+      { "id": "a5e4a7b0", "name": "Slash", "url": "yamakaze/yamakaze-slash.png" },
+      { "id": "e0e07fda", "name": "Slash", "url": "yamakaze/yamakaze-slash.png" },
+      { "id": "ebbb5293", "name": "Steadfast", "url": "yamakaze/yamakaze-steadfast.png" },
+      { "id": "9ec36cb8", "name": "Steadfast", "url": "yamakaze/yamakaze-steadfast.png" },
+      { "id": "6d46bcce", "name": "Storm", "url": "yamakaze/yamakaze-storm.png" },
+      { "id": "59fa64e8", "name": "Storm", "url": "yamakaze/yamakaze-storm.png" },
+      { "id": "827130fc", "name": "Violent", "url": "yamakaze/yamakaze-violent.png" },
+      { "id": "ae956935", "name": "Violent", "url": "yamakaze/yamakaze-violent.png" }
+    ],
+    "avatar": "yamakaze/yamakaze-avatar.png"
   }
 ]
