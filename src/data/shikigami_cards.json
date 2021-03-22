@@ -624,7 +624,7 @@
     "avatar": "kusa/kusa-avatar.png"
   },
   {
-    "name": "chin",
+    "name": "Chin",
     "character_card": "chin/chin-char.png",
     "cards": [
       { "id": "19a89aab", "name": "Chin's Feathers", "url": "chin/chin-chins_feathers.png" },
@@ -647,7 +647,7 @@
     "avatar": "chin/chin-avatar.png"
   },
   {
-    "name": "zashiki",
+    "name": "Zashiki",
     "character_card": "zashiki/zashiki-char.png",
     "cards": [
       { "id": "a27bec60", "name": "Bountiful Harvest", "url": "zashiki/zashiki-bountiful_harvest.png" },
@@ -668,5 +668,189 @@
       { "id": "7a4bfadf", "name": "Strike of Luck", "url": "zashiki/zashiki-strike_of_luck.png" }
     ],
     "avatar": "zashiki/zashiki-avatar.png"
+  },
+  {
+    "name": "Youko",
+    "character_card": "youko/youko-char.png",
+    "cards": [
+      { "id": "feeb4b5f", "name": "Affection", "url": "youko/youko-affection.png" },
+      { "id": "d2f0528a", "name": "Affection", "url": "youko/youko-affection.png" },
+      { "id": "70e70616", "name": "Blade Cyclone", "url": "youko/youko-blade_cyclone.png" },
+      { "id": "23342f50", "name": "Blade Cyclone", "url": "youko/youko-blade_cyclone.png" },
+      { "id": "de5323e5", "name": "Destined One", "url": "youko/youko-destined_one.png" },
+      { "id": "c12db41e", "name": "Destined One", "url": "youko/youko-destined_one.png" },
+      { "id": "fc5cb817", "name": "Double Slash", "url": "youko/youko-double_slash.png" },
+      { "id": "5372dab4", "name": "Double Slash", "url": "youko/youko-double_slash.png" },
+      { "id": "f0cfc4e2", "name": "Evolved: Youko", "url": "youko/youko-evolved.png" },
+      { "id": "774bae1e", "name": "Evolved: Youko", "url": "youko/youko-evolved.png" },
+      { "id": "a8ef0721", "name": "Ki Focus", "url": "youko/youko-ki_focus.png" },
+      { "id": "5304ed81", "name": "Ki Focus", "url": "youko/youko-ki_focus.png" },
+      { "id": "f0778173", "name": "Relentless Barage", "url": "youko/youko-relentless_barage.png" },
+      { "id": "4ba519ac", "name": "Relentless Barage", "url": "youko/youko-relentless_barage.png" },
+      { "id": "5c200c1e", "name": "Wind Blade", "url": "youko/youko-wind_blade.png" },
+      { "id": "1279e208", "name": "Wind Blade", "url": "youko/youko-wind_blade.png" }
+    ],
+    "avatar": "youko/youko-avatar.png"
+  },
+  {
+    "name": "Karasu Tengu",
+    "character_card": "karasu_tengu/karasu_tengu-char.png",
+    "cards": [
+      { "id": "d2b94b88", "name": "Blade of Justice", "url": "karasu_tengu/karasu_tengu-blade_of_justice.png" },
+      { "id": "2408fb1d", "name": "Blade of Justice", "url": "karasu_tengu/karasu_tengu-blade_of_justice.png" },
+      { "id": "8256a163", "name": "Deadly Flock", "url": "karasu_tengu/karasu_tengu-deadly_flock.png" },
+      { "id": "c7d33631", "name": "Deadly Flock", "url": "karasu_tengu/karasu_tengu-deadly_flock.png" },
+      { "id": "bda57c30", "name": "Evolved: Karasu Tengu", "url": "karasu_tengu/karasu_tengu-evolved.png" },
+      { "id": "077653a1", "name": "Evolved: Karasu Tengu", "url": "karasu_tengu/karasu_tengu-evolved.png" },
+      { "id": "117872ce", "name": "Fearless Hero", "url": "karasu_tengu/karasu_tengu-fearless_hero.png" },
+      { "id": "a766fb3c", "name": "Fearless Hero", "url": "karasu_tengu/karasu_tengu-fearless_hero.png" },
+      { "id": "57d9590f", "name": "Feather Trail", "url": "karasu_tengu/karasu_tengu-feather_trail.png" },
+      { "id": "9d8bf54b", "name": "Feather Trail", "url": "karasu_tengu/karasu_tengu-feather_trail.png" },
+      { "id": "059e3318", "name": "Justice Shall Prevail", "url": "karasu_tengu/karasu_tengu-justice_shall_prevail.png" },
+      { "id": "cf75ca2b", "name": "Justice Shall Prevail", "url": "karasu_tengu/karasu_tengu-justice_shall_prevail.png" },
+      { "id": "163a475b", "name": "Scurrying Crows", "url": "karasu_tengu/karasu_tengu-scurrying_crows.png" },
+      { "id": "10502e81", "name": "Scurrying Crows", "url": "karasu_tengu/karasu_tengu-scurrying_crows.png" },
+      { "id": "483c0fd7", "name": "Wind Chase", "url": "karasu_tengu/karasu_tengu-wind_chase.png" },
+      { "id": "8daf3030", "name": "Wind Chase", "url": "karasu_tengu/karasu_tengu-wind_chase.png" }
+    ],
+    "avatar": "karasu_tengu/karasu_tengu-avatar.png"
+  },
+  {
+    "name": "Shiranui",
+    "character_card": "shiranui/shiranui-char.png",
+    "cards": [
+      { "id": "b3ee1c0c", "name": "Dance of Sorrow", "url": "shiranui/shiranui-dance_of_sorrow.png" },
+      { "id": "037a321e", "name": "Dance of Sorrow", "url": "shiranui/shiranui-dance_of_sorrow.png" },
+      { "id": "e9355b6d", "name": "Dancing Flames", "url": "shiranui/shiranui-dancing_flames.png" },
+      { "id": "dee8162d", "name": "Dancing Flames", "url": "shiranui/shiranui-dancing_flames.png" },
+      { "id": "245fb556", "name": "Evolved: Shiranui", "url": "shiranui/shiranui-evolved.png" },
+      { "id": "ebaa9bae", "name": "Evolved: Shiranui", "url": "shiranui/shiranui-evolved.png" },
+      { "id": "1b4c5432", "name": "First Dance", "url": "shiranui/shiranui-first_dance.png" },
+      { "id": "9c463da6", "name": "First Dance", "url": "shiranui/shiranui-first_dance.png" },
+      { "id": "9dbc7a8f", "name": "Passing Beauty", "url": "shiranui/shiranui-passing_beauty.png" },
+      { "id": "6464cb15", "name": "Passing Beauty", "url": "shiranui/shiranui-passing_beauty.png" },
+      { "id": "492426a1", "name": "Song of Freedom", "url": "shiranui/shiranui-song_of_freedom.png" },
+      { "id": "29bc7c3d", "name": "Song of Freedom", "url": "shiranui/shiranui-song_of_freedom.png" },
+      { "id": "89defb56", "name": "Song of Starfire", "url": "shiranui/shiranui-song_of_starfire.png" },
+      { "id": "e71d3591", "name": "Song of Starfire", "url": "shiranui/shiranui-song_of_starfire.png" },
+      { "id": "4fb43d3e", "name": "Song of Truth", "url": "shiranui/shiranui-song_of_truth.png" },
+      { "id": "0482f198", "name": "Song of Truth", "url": "shiranui/shiranui-song_of_truth.png" }
+    ],
+    "avatar": "shiranui/shiranui-avatar.png"
+  },
+  {
+    "name": "Shishio",
+    "character_card": "shishio/shishio-char.png",
+    "cards": [
+      { "id": "d00d3914", "name": "Antler Gore", "url": "shishio/shishio-antler_gore.png" },
+      { "id": "a9d15107", "name": "Antler Gore", "url": "shishio/shishio-antler_gore.png" },
+      { "id": "50d8532f", "name": "Circle of Life", "url": "shishio/shishio-circle_of_life.png" },
+      { "id": "5b7ab487", "name": "Circle of Life", "url": "shishio/shishio-circle_of_life.png" },
+      { "id": "e5205319", "name": "Desire for Power", "url": "shishio/shishio-desire_for_power.png" },
+      { "id": "856616b3", "name": "Desire for Power", "url": "shishio/shishio-desire_for_power.png" },
+      { "id": "eb02d427", "name": "Evolved: Shishio", "url": "shishio/shishio-evolved.png" },
+      { "id": "1e8728e3", "name": "Evolved: Shishio", "url": "shishio/shishio-evolved.png" },
+      { "id": "3778df70", "name": "Forest Aegis", "url": "shishio/shishio-forest_aegis.png" },
+      { "id": "f2cf1018", "name": "Forest Aegis", "url": "shishio/shishio-forest_aegis.png" },
+      { "id": "4686123e", "name": "Forest Shroud", "url": "shishio/shishio-forest_shroud.png" },
+      { "id": "90c4cf69", "name": "Forest Shroud", "url": "shishio/shishio-forest_shroud.png" },
+      { "id": "cc4ff0be", "name": "Forest Vines", "url": "shishio/shishio-forest_vines.png" },
+      { "id": "e723ffee", "name": "Forest Vines", "url": "shishio/shishio-forest_vines.png" },
+      { "id": "af359392", "name": "Wish of Blessing", "url": "shishio/shishio-wish_of_blessing.png" },
+      { "id": "b1d196d2", "name": "Wish of Blessing", "url": "shishio/shishio-wish_of_blessing.png" }
+    ],
+    "avatar": "shishio/shishio-avatar.png"
+  },
+  {
+    "name": "Enenra",
+    "character_card": "enenra/enenra-char.png",
+    "cards": [
+      { "id": "1684de94", "name": "Evolved: Enenra", "url": "enenra/enenra-evolved.png" },
+      { "id": "a1c7203e", "name": "Evolved: Enenra", "url": "enenra/enenra-evolved.png" },
+      { "id": "948fba4a", "name": "Gluttony Ghoul", "url": "enenra/enenra-gluttony_ghoul.png" },
+      { "id": "ce692086", "name": "Gluttony Ghoul", "url": "enenra/enenra-gluttony_ghoul.png" },
+      { "id": "839b357b", "name": "Heavy Mist", "url": "enenra/enenra-heavy_mist.png" },
+      { "id": "efdd3a98", "name": "Heavy Mist", "url": "enenra/enenra-heavy_mist.png" },
+      { "id": "de7f3da6", "name": "Infiltration", "url": "enenra/enenra-infiltration.png" },
+      { "id": "ffb0b07e", "name": "Infiltration", "url": "enenra/enenra-infiltration.png" },
+      { "id": "310e6e99", "name": "Mysterious", "url": "enenra/enenra-mysterious.png" },
+      { "id": "03408e63", "name": "Mysterious", "url": "enenra/enenra-mysterious.png" },
+      { "id": "9d3fb99d", "name": "Prickly Ghost", "url": "enenra/enenra-prickly_ghost.png" },
+      { "id": "ea61b266", "name": "Prickly Ghost", "url": "enenra/enenra-prickly_ghost.png" },
+      { "id": "28f40d3f", "name": "Rising Vapor", "url": "enenra/enenra-rising_vapor.png" },
+      { "id": "f029dc9c", "name": "Rising Vapor", "url": "enenra/enenra-rising_vapor.png" },
+      { "id": "f9b493ad", "name": "Wraith Rascal", "url": "enenra/enenra-wraith_rascal.png" },
+      { "id": "b62388ba", "name": "Wraith Rascal", "url": "enenra/enenra-wraith_rascal.png" }
+    ],
+    "avatar": "enenra/enenra-avatar.png"
+  },
+  {
+    "name": "Kamaitachi",
+    "character_card": "kamaitachi/kamaitachi-char.png",
+    "cards": [
+      { "id": "629ea5ff", "name": "Diversion", "url": "kamaitachi/kamaitachi-diversion.png" },
+      { "id": "cd5fefc9", "name": "Diversion", "url": "kamaitachi/kamaitachi-diversion.png" },
+      { "id": "2398784f", "name": "Evolved: Kamaitachi", "url": "kamaitachi/kamaitachi-evolved.png" },
+      { "id": "63bc3769", "name": "Evolved: Kamaitachi", "url": "kamaitachi/kamaitachi-evolved.png" },
+      { "id": "7a644d50", "name": "Ichitaro's Kanbado", "url": "kamaitachi/kamaitachi-ichitaros_kanbado.png" },
+      { "id": "cab72f17", "name": "Ichitaro's Kanbado", "url": "kamaitachi/kamaitachi-ichitaros_kanbado.png" },
+      { "id": "e7aaa7ca", "name": "Nitaro's Halberd", "url": "kamaitachi/kamaitachi-nitaros_halberd.png" },
+      { "id": "d326e715", "name": "Nitaro's Halberd", "url": "kamaitachi/kamaitachi-nitaros_halberd.png" },
+      { "id": "1ed27c22", "name": "On the Same Boat", "url": "kamaitachi/kamaitachi-on_the_same_boat.png" },
+      { "id": "c7e8d7ed", "name": "On the Same Boat", "url": "kamaitachi/kamaitachi-on_the_same_boat.png" },
+      { "id": "aee5c6e2", "name": "Santaro's Axe", "url": "kamaitachi/kamaitachi-santaros_axe.png" },
+      { "id": "3b463499", "name": "Santaro's Axe", "url": "kamaitachi/kamaitachi-santaros_axe.png" },
+      { "id": "36766973", "name": "Strength in Numbers", "url": "kamaitachi/kamaitachi-strength_in_numbers.png" },
+      { "id": "b1b746a7", "name": "Strength in Numbers", "url": "kamaitachi/kamaitachi-strength_in_numbers.png" },
+      { "id": "a55636f4", "name": "Untied", "url": "kamaitachi/kamaitachi-untied.png" },
+      { "id": "ab8edc52", "name": "Untied", "url": "kamaitachi/kamaitachi-untied.png" }
+    ],
+    "avatar": "kamaitachi/kamaitachi-avatar.png"
+  },
+  {
+    "name": "Suzuka Gozen",
+    "character_card": "suzuka_gozen/suzuka_gozen-char.png",
+    "cards": [
+      { "id": "c4a5c8a4", "name": "Evolved: Suzuka Gozen", "url": "suzuka_gozen/suzuka_gozen-evolved.png" },
+      { "id": "9ae2aef0", "name": "Evolved: Suzuka Gozen", "url": "suzuka_gozen/suzuka_gozen-evolved.png" },
+      { "id": "1a6ed217", "name": "Homecoming", "url": "suzuka_gozen/suzuka_gozen-homecoming.png" },
+      { "id": "34d47a86", "name": "Homecoming", "url": "suzuka_gozen/suzuka_gozen-homecoming.png" },
+      { "id": "0ab513a0", "name": "Light and Shadow", "url": "suzuka_gozen/suzuka_gozen-light_and_shadow.png" },
+      { "id": "de622773", "name": "Light and Shadow", "url": "suzuka_gozen/suzuka_gozen-light_and_shadow.png" },
+      { "id": "cfe136f8", "name": "Nether Bow", "url": "suzuka_gozen/suzuka_gozen-nether_bow.png" },
+      { "id": "fbd14aa6", "name": "Nether Bow", "url": "suzuka_gozen/suzuka_gozen-nether_bow.png" },
+      { "id": "54086b19", "name": "Overlord", "url": "suzuka_gozen/suzuka_gozen-overlord.png" },
+      { "id": "dc1bcf59", "name": "Overlord", "url": "suzuka_gozen/suzuka_gozen-overlord.png" },
+      { "id": "603bc79f", "name": "Righteous Path", "url": "suzuka_gozen/suzuka_gozen-righteous_path.png" },
+      { "id": "e5010142", "name": "Righteous Path", "url": "suzuka_gozen/suzuka_gozen-righteous_path.png" },
+      { "id": "d13c9aa9", "name": "Sharp Blade", "url": "suzuka_gozen/suzuka_gozen-sharp_blade.png" },
+      { "id": "a23abc0e", "name": "Sharp Blade", "url": "suzuka_gozen/suzuka_gozen-sharp_blade.png" },
+      { "id": "e3070d44", "name": "Unprecendented", "url": "suzuka_gozen/suzuka_gozen-unprecedented.png" },
+      { "id": "b4240967", "name": "Unprecendented", "url": "suzuka_gozen/suzuka_gozen-unprecedented.png" }
+    ],
+    "avatar": "suzuka_gozen/suzuka_gozen-avatar.png"
+  },
+  {
+    "name": "Hiyoribou",
+    "character_card": "hiyoribou/hiyoribou-char.png",
+    "cards": [
+      { "id": "67ec1041", "name": "Blazing Sun", "url": "hiyoribou/hiyoribou-blazing_sun.png" },
+      { "id": "d216d1f4", "name": "Blazing Sun", "url": "hiyoribou/hiyoribou-blazing_sun.png" },
+      { "id": "ea51d7df", "name": "Evolved: Hiyoribou", "url": "hiyoribou/hiyoribou-evolved.png" },
+      { "id": "b17d6bfb", "name": "Evolved: Hiyoribou", "url": "hiyoribou/hiyoribou-evolved.png" },
+      { "id": "3facc066", "name": "Nourishment", "url": "hiyoribou/hiyoribou-nourishment.png" },
+      { "id": "3518156c", "name": "Nourishment", "url": "hiyoribou/hiyoribou-nourishment.png" },
+      { "id": "bce2e827", "name": "Rising Sun", "url": "hiyoribou/hiyoribou-rising_sun.png" },
+      { "id": "46d50a5a", "name": "Rising Sun", "url": "hiyoribou/hiyoribou-rising_sun.png" },
+      { "id": "a7996ef6", "name": "Sun Bathe", "url": "hiyoribou/hiyoribou-sun_bathe.png" },
+      { "id": "5872abf1", "name": "Sun Bathe", "url": "hiyoribou/hiyoribou-sun_bathe.png" },
+      { "id": "b40e7984", "name": "Sun Prayer", "url": "hiyoribou/hiyoribou-sun_prayer.png" },
+      { "id": "a1139fb8", "name": "Sun Prayer", "url": "hiyoribou/hiyoribou-sun_prayer.png" },
+      { "id": "223e3112", "name": "Sunshine and Rain", "url": "hiyoribou/hiyoribou-sunshine_and_rain.png" },
+      { "id": "b26fa917", "name": "Sunshine and Rain", "url": "hiyoribou/hiyoribou-sunshine_and_rain.png" },
+      { "id": "d35c0fbc", "name": "Winter Sun", "url": "hiyoribou/hiyoribou-winter_sun.png" },
+      { "id": "e2b59ef4", "name": "Winter Sun", "url": "hiyoribou/hiyoribou-winter_sun.png" }
+    ],
+    "avatar": "hiyoribou/hiyoribou-avatar.png"
   }
 ]

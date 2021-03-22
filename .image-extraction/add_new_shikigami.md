@@ -2,15 +2,15 @@
 
 Remove all current images:
 
-`fd -e png -x rm {}`
+fd -e png -x rm {}
 
 After convert, copy to the character folder in assets:
 
-`fd -e png chin -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/chin`
+fd -e png hiyoribou -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/hiyoribou
 
 Print all cards (excluding char and avatar):
 
-`fd -E '*char*' -E '*avatar*' | wc && fd -E '*char*' -E '*avatar*'`
+fd -E '*char*' -E '*avatar*' | wc && fd -E '*char*' -E '*avatar*'
 
 Blank JSON template:
 
@@ -24,8 +24,8 @@ Blank JSON template:
 
 ```json
   {
-    "name": "chin",
-    "character_card": "chin/chin-char.png",
+    "name": "hiyoribou",
+    "character_card": "hiyoribou/hiyoribou-char.png",
     "cards": [
       { "id": "d6fc26b2", "name": "", "url": "" },
       { "id": "1217f957", "name": "", "url": "" },
@@ -36,6 +36,6 @@ Blank JSON template:
       { "id": "f1f8ce7d", "name": "", "url": "" },
       { "id": "1d30d350", "name": "", "url": "" },
     ],
-    "avatar": "chin/chin-avatar.png"
+    "avatar": "hiyoribou/hiyoribou-avatar.png"
   }
 ```
