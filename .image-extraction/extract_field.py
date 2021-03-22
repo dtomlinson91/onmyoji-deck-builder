@@ -4,7 +4,7 @@ import numpy
 from PIL import Image, ImageDraw
 
 
-def extract_image(filename: str, output_path: str) -> None:
+def extract_image(filename: str, output_path: str, shikigami_name: str) -> None:
     """
     Extract a field card from a screenshot from a device. Screenshot for each card
     taken from the Hyakabun scrollery. Image will be resized and the card extracted.
@@ -85,17 +85,7 @@ def extract_image(filename: str, output_path: str) -> None:
     extracted_image = extracted_image.crop((490, 42, 803, 568))
 
     # save the image
-    extracted_image.save(f"{output_path}/{filename.split('/')[-1].split('.')[-2]}.png")
-
-
-if __name__ == "__main__":
-    for image in glob.glob(
-        "/Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/."
-        "image-extraction/images/fields/*.*"
-    ):
-        print(image)
-        extract_image(
-            image,
-            "/Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/."
-            "image-extraction/images/fields/out",
-        )
+    extracted_image.save(
+        f"{output_path}/{shikigami_name}-"
+        f"{filename.split('/')[-1].split('.')[-2]}.png"
+    )

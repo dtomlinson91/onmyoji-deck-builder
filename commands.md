@@ -18,4 +18,4 @@
 
 ### dev
 
-`s3deploy -source=./dist -region=eu-west-1 -bucket=dev-onmyojideckbuilder-origin -distribution-id=E26QN6RRQRWYWL`
+`s3deploy -source=./dist -region=eu-west-1 -bucket=dev-onmyojideckbuilder-origin -distribution-id=E1P823M9JSN9HE`

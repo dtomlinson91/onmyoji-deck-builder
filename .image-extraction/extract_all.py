@@ -3,8 +3,9 @@ import glob
 import extract_combat
 import extract_spell
 import extract_form
+import extract_field
 
-SHIKIGAMI_NAME = "umibozu"
+SHIKIGAMI_NAME = "kyonshi_imoto"
 
 
 def main(shikigami_name: str):
@@ -44,6 +45,19 @@ def main(shikigami_name: str):
             image,
             "/Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/."
             "image-extraction/images/forms/out",
+            shikigami_name,
+        )
+
+    # field cards
+    for image in glob.glob(
+        "/Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/."
+        "image-extraction/images/fields/*.*"
+    ):
+        print(image)
+        extract_field.extract_image(
+            image,
+            "/Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/."
+            "image-extraction/images/fields/out",
             shikigami_name,
         )
 
