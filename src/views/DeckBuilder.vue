@@ -25,7 +25,7 @@
     </v-row>
     <v-row>
       <v-col cols="12">
-        <v-select
+        <v-autocomplete
           v-model="selected_shikigami_names"
           v-on:input="limit_shikigami"
           :items="shikigami"
@@ -68,7 +68,7 @@
               </v-list-item-content>
             </template>
           </template>
-        </v-select>
+        </v-autocomplete>
       </v-col>
       <!-- selected_shikigami_names: {{ selected_shikigami_names }} <br /> -->
       <!-- selected_shikigami_data: {{ selected_shikigami_data }} <br /> -->

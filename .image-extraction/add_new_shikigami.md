@@ -6,7 +6,7 @@ fd -e png -x rm {}
 
 After convert, copy to the character folder in assets:
 
-fd -e png enmusubi -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/enmusubi
+fd -e png kuro_shiro_mujou -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/kuro_shiro_mujou
 
 Print all cards (excluding char and avatar):
 
@@ -24,8 +24,8 @@ Blank JSON template:
 
 ```json
   {
-    "name": "enmusubi",
-    "character_card": "enmusubi/enmusubi-char.png",
+    "name": "kuro_shiro_mujou",
+    "character_card": "kuro_shiro_mujou/kuro_shiro_mujou-char.png",
     "cards": [
       { "id": "d6fc26b2", "name": "", "url": "" },
       { "id": "1217f957", "name": "", "url": "" },
@@ -36,6 +36,6 @@ Blank JSON template:
       { "id": "f1f8ce7d", "name": "", "url": "" },
       { "id": "1d30d350", "name": "", "url": "" },
     ],
-    "avatar": "enmusubi/enmusubi-avatar.png"
+    "avatar": "kuro_shiro_mujou/kuro_shiro_mujou-avatar.png"
   }
 ```

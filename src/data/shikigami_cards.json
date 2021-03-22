@@ -699,6 +699,29 @@
     "divider": true
   },
   {
+    "name": "Kyonshi Imoto",
+    "character_card": "kyonshi_imoto/kyonshi_imoto-char.png",
+    "cards": [
+      { "id": "4fcd4ead", "name": "Baddies Begone", "url": "kyonshi_imoto/kyonshi_imoto-baddies_begone.png" },
+      { "id": "694f0792", "name": "Baddies Begone", "url": "kyonshi_imoto/kyonshi_imoto-baddies_begone.png" },
+      { "id": "0a491809", "name": "Bite!", "url": "kyonshi_imoto/kyonshi_imoto-bite.png" },
+      { "id": "9df384b0", "name": "Bite!", "url": "kyonshi_imoto/kyonshi_imoto-bite.png" },
+      { "id": "7746a6a1", "name": "Evolved: Kyonshi Imoto", "url": "kyonshi_imoto/kyonshi_imoto-evolved.png" },
+      { "id": "1527be26", "name": "Evolved: Kyonshi Imoto", "url": "kyonshi_imoto/kyonshi_imoto-evolved.png" },
+      { "id": "68621287", "name": "I'm Angry!", "url": "kyonshi_imoto/kyonshi_imoto-im_angry.png" },
+      { "id": "c679e7b9", "name": "I'm Angry!", "url": "kyonshi_imoto/kyonshi_imoto-im_angry.png" },
+      { "id": "340547dd", "name": "I've Had Enough!", "url": "kyonshi_imoto/kyonshi_imoto-ive_had_enough.png" },
+      { "id": "a863a8fd", "name": "I've Had Enough!", "url": "kyonshi_imoto/kyonshi_imoto-ive_had_enough.png" },
+      { "id": "4579c67e", "name": "Sit!", "url": "kyonshi_imoto/kyonshi_imoto-sit.png" },
+      { "id": "4c56f86e", "name": "Sit!", "url": "kyonshi_imoto/kyonshi_imoto-sit.png" },
+      { "id": "b392f18a", "name": "Stay Away!", "url": "kyonshi_imoto/kyonshi_imoto-stay_away.png" },
+      { "id": "ba1eab84", "name": "Stay Away!", "url": "kyonshi_imoto/kyonshi_imoto-stay_away.png" },
+      { "id": "07f7f5db", "name": "Attack!", "url": "kyonshi_imoto/kyonshi_imoto-attack.png" },
+      { "id": "886ec846", "name": "Attack!", "url": "kyonshi_imoto/kyonshi_imoto-attack.png" }
+    ],
+    "avatar": "kyonshi_imoto/kyonshi_imoto-avatar.png"
+  },
+  {
     "name": "Karasu Tengu",
     "character_card": "karasu_tengu/karasu_tengu-char.png",
     "cards": [

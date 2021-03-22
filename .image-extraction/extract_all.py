@@ -5,7 +5,7 @@ import extract_spell
 import extract_form
 import extract_field
 
-SHIKIGAMI_NAME = "kuro_shiro_mujou"
+SHIKIGAMI_NAME = "kyonshi_imoto"
 
 
 def main(shikigami_name: str):
