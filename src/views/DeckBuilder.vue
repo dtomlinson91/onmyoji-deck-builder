@@ -156,7 +156,34 @@
             </v-row>
           </v-card>
         </v-row>
-
+        <v-row v-for="(_, index) in selected_shikigami_names" :key="index">
+          <v-col class="pa-0" cols="9">
+            <v-card
+              elevation="2"
+              width="100%"
+              class=""
+              flat
+              tile
+              color="#171D29"
+              ><v-col cols="12" class="my-n1">
+                <div class="d-flex">
+                  <v-img
+                    :src="
+                      require(`@/assets/cards/${selected_shikigami_data[index].character_card}`)
+                    "
+                    width="11.1%"
+                    class="px-1"
+                  ></v-img
+                  ><v-img
+                    :src="require(`@/assets/cards/${i.url}`)"
+                    class="px-1"
+                    v-for="i in selected_shikigami_decks[index][index]"
+                    :key="i.id"
+                    width="12%"
+                  ></v-img></div></v-col
+            ></v-card>
+          </v-col>
+        </v-row>
         <v-row>
           <v-textarea :value="construct_url()" color="teal"> </v-textarea>
         </v-row>
