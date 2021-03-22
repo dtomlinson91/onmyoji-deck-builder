@@ -6,11 +6,11 @@ Remove all current images:
 
 After convert, copy to the character folder in assets:
 
-`fd -e png yamausagi -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/yamausagi`
+`fd -e png chin -x mv {} /Users/dtomlinson/git-repos/web-dev/onmyoji-deck-builder/src/assets/cards/chin`
 
 Print all cards (excluding char and avatar):
 
-`fd -E '*char*' -E '*avatar*'`
+`fd -E '*char*' -E '*avatar*' | wc && fd -E '*char*' -E '*avatar*'`
 
 Blank JSON template:
 
@@ -24,8 +24,8 @@ Blank JSON template:
 
 ```json
   {
-    "name": "yamausagi",
-    "character_card": "yamausagi/yamausagi-char.png",
+    "name": "chin",
+    "character_card": "chin/chin-char.png",
     "cards": [
       { "id": "d6fc26b2", "name": "", "url": "" },
       { "id": "1217f957", "name": "", "url": "" },
@@ -36,6 +36,6 @@ Blank JSON template:
       { "id": "f1f8ce7d", "name": "", "url": "" },
       { "id": "1d30d350", "name": "", "url": "" },
     ],
-    "avatar": "yamausagi/yamausagi-avatar.png"
+    "avatar": "chin/chin-avatar.png"
   }
 ```

@@ -148,7 +148,7 @@
       </v-card>
     </v-row>
     <v-row>
-      <!-- <v-textarea :value="construct_url()" color="teal"> </v-textarea> -->
+      <v-textarea :value="construct_url()" color="teal"> </v-textarea>
     </v-row>
   </v-container>
 </template>
