@@ -31,7 +31,7 @@
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar :clipped-left="false" app color="#272935">
+    <v-app-bar :clipped-left="false" app color="#272935" hide-on-scroll>
       <v-app-bar-nav-icon
         @click.stop="primaryDrawer.model = !primaryDrawer.model"
       ></v-app-bar-nav-icon>
@@ -42,15 +42,11 @@
       <router-view></router-view>
     </v-main>
 
-    <v-footer :inset="false" color="#272935" app>
-      <!-- <span class="px-4"
-        >&copy; {{ new Date().getFullYear() }} Daniel Tomlinson</span
-      >
-      <v-spacer /> -->
+    <!-- <v-footer :inset="false" color="#272935" app>
       <span class="px-2">
         <v-icon>{{ icons.mdiGithub }}</v-icon> View on GitHub
       </span>
-    </v-footer>
+    </v-footer> -->
   </v-app>
 </template>
 

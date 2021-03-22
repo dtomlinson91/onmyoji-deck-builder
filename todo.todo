@@ -1,0 +1,7 @@
+☐ Random image on homescreen
+☐ Link shortener
+    ☐ Only work for this domain
+    ☐ API key in `process.env` .env file
+☐ News on homepage
+☐ Help page
+☐ Mobile layout
