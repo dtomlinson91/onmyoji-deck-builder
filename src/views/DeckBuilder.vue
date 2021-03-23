@@ -49,7 +49,7 @@
                   :input-value="data.selected"
                   close
                   medium
-                  :x-large="$vuetify.breakpoint.lgAndUp"
+                  :x-large="$vuetify.breakpoint.mdAndUp"
                   @click="data.select"
                   @click:close="remove_shikigami(data.item)"
                   color="#C0B094"
@@ -79,9 +79,9 @@
               </template>
             </v-autocomplete>
           </v-col>
-          <!-- selected_shikigami_names: {{ selected_shikigami_names }} <br /> -->
+          selected_shikigami_names: {{ selected_shikigami_names }} <br />
           <!-- selected_shikigami_data: {{ selected_shikigami_data }} <br /> -->
-          <!-- selected_shikigami_decks: {{ selected_shikigami_decks }} -->
+          selected_shikigami_decks: {{ selected_shikigami_decks }}
           <!-- deck_title: {{ deck_title }} -->
           breakpoint: {{ this.$vuetify.breakpoint.name }}
           {{ this.$vuetify.breakpoint.width }}
@@ -106,7 +106,7 @@
                   ></v-img>
                 </div>
               </v-col>
-              <v-col cols="12" lg="10" class="d-flex flex-column"
+              <v-col cols="12" md="10" class="d-flex flex-column"
                 ><v-row cols="12">
                   <v-select
                     v-model="selected_shikigami_decks[index][index]"
@@ -378,18 +378,18 @@ export default {
 
 @media #{map-get(
     $display-breakpoints,
-    "lg-and-up"
+    "md-and-up"
   )} {
   .v-chip .v-avatar {
     height: 60px !important;
     width: 60px !important;
   }
-}
 
-.deck-card:hover {
-  position: relative;
-  animation: card-zoom 500ms ease-in-out 0s forwards;
-  z-index: 100;
+  .deck-card:hover {
+    position: relative;
+    animation: card-zoom 500ms ease-in-out 0s forwards;
+    z-index: 100;
+  }
 }
 
 @keyframes card-zoom {
