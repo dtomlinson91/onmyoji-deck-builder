@@ -80,7 +80,7 @@
             </v-autocomplete>
           </v-col>
           selected_shikigami_names: {{ selected_shikigami_names }} <br />
-          <!-- selected_shikigami_data: {{ selected_shikigami_data }} <br /> -->
+          selected_shikigami_data: {{ selected_shikigami_data }} <br />
           selected_shikigami_decks: {{ selected_shikigami_decks }}
           <!-- deck_title: {{ deck_title }} -->
           breakpoint: {{ this.$vuetify.breakpoint.name }}
@@ -109,7 +109,7 @@
               <v-col cols="12" md="10" class="d-flex flex-column"
                 ><v-row cols="12">
                   <v-select
-                    v-model="selected_shikigami_decks[index][index]"
+                    v-model="selected_shikigami_decks[index]"
                     v-on:input="limit_decks"
                     :items="selected_shikigami_data[index].cards"
                     item-text="name"
@@ -150,7 +150,7 @@
                     ></v-img
                   ></v-card>
                   <v-card
-                    v-for="i in selected_shikigami_decks[index][index]"
+                    v-for="i in selected_shikigami_decks[index]"
                     :key="i.id"
                     :width="cardWidth"
                     color="#171D29"
@@ -165,10 +165,13 @@
             </v-row>
           </v-card>
         </v-row>
-
         <v-row>
-          <v-textarea :value="construct_url()" color="teal"> </v-textarea>
+          {{ dev() }}
+          {{ output_shikigami_decks }}
         </v-row>
+        <!-- <v-row>
+          <v-textarea :value="construct_url()" color="teal"> </v-textarea>
+        </v-row> -->
       </v-col>
     </v-row>
   </v-container>
@@ -180,7 +183,7 @@ export default {
   data: () => ({
     selected_shikigami_names: [],
     selected_shikigami_data: [],
-    selected_shikigami_decks: [{ 0: [] }, { 1: [] }, { 2: [] }, { 3: [] }],
+    selected_shikigami_decks: [[], [], [], []],
     shikigami: shikigami,
     deck_title: "",
     deck_description: "",
@@ -211,35 +214,30 @@ export default {
       const index = this.selected_shikigami_names.indexOf(item.name);
       if (index >= 0) {
         this.selected_shikigami_names.splice(index, 1);
-        this.selected_shikigami_decks[index][index].splice(0);
+        this.selected_shikigami_decks[index].splice(0);
         // shuffle shikigami down by 1
         if (index <= 3) {
           for (let j = index; j <= 2; j++) {
             for (
               let i = 0;
-              i < this.selected_shikigami_decks[j + 1][j + 1].length;
+              i < this.selected_shikigami_decks[j + 1].length;
               i++
             ) {
               // this if is optional?
               if (index < 3) {
-                this.selected_shikigami_decks[j][j].push(
-                  this.selected_shikigami_decks[j + 1][j + 1][i]
+                this.selected_shikigami_decks[j].push(
+                  this.selected_shikigami_decks[j + 1][i]
                 );
               }
             }
-            this.selected_shikigami_decks[j + 1][j + 1] = [];
+            this.selected_shikigami_decks[j + 1] = [];
           }
         }
       }
     },
     remove_decks(shiki_index, card_index) {
       ``;
-      this.selected_shikigami_decks[shiki_index][shiki_index].splice(
-        card_index,
-        1
-      );
-      console.log(this.selected_shikigami_decks[shiki_index].shiki_index);
-      console.log(shiki_index, card_index);
+      this.selected_shikigami_decks[shiki_index].splice(card_index, 1);
     },
     construct_url: function () {
       const saved_selected_shikigami_names = btoa(
@@ -254,6 +252,20 @@ export default {
       );
       const url = `?deck_title=${saved_deck_title}&deck_description=${saved_deck_description}&selected_shikigami_names=${saved_selected_shikigami_names}&selected_shikigami_decks=${saved_selected_shikigami_decks}`;
       return url;
+    },
+    dev() {
+      const id = "f08efb12";
+      for (let i = 0; i < this.selected_shikigami_data.length; i++) {
+        // console.log(this.selected_shikigami_data[i].name);
+        for (let j = 0; j < this.selected_shikigami_data[i].cards.length; j++) {
+          // console.log(JSON.stringify(this.selected_shikigami_data[i].cards[j]));
+          if (this.selected_shikigami_data[i].cards[j].id === id) {
+            console.log(
+              JSON.stringify(this.selected_shikigami_data[i].cards[j])
+            );
+          }
+        }
+      }
     },
   },
   computed: {
@@ -271,6 +283,17 @@ export default {
           return "12.3%";
       }
       return "12.3%";
+    },
+    output_shikigami_decks() {
+      const output = [[], [], [], []];
+      for (let i = 0; i < this.selected_shikigami_decks.length; i++) {
+        for (let j = 0; j < this.selected_shikigami_decks[i].length; j++) {
+          // console.log(this.selected_shikigami_decks[i][j].id);
+          output[i].push(this.selected_shikigami_decks[i][j].id);
+          // console.log(`output: ${JSON.stringify(output)}`);
+        }
+      }
+      return output;
     },
   },
   mounted() {
@@ -297,12 +320,7 @@ export default {
       );
 
       if (typeof saved_selected_shikigami_decks != "object") {
-        this.selected_shikigami_decks = [
-          { 0: [] },
-          { 1: [] },
-          { 2: [] },
-          { 3: [] },
-        ];
+        this.selected_shikigami_decks = [[], [], [], []];
       } else {
         this.selected_shikigami_decks = [];
         for (let i = 0; i < saved_selected_shikigami_decks.length; i++) {
@@ -310,12 +328,7 @@ export default {
         }
       }
     } else {
-      this.selected_shikigami_decks = [
-        { 0: [] },
-        { 1: [] },
-        { 2: [] },
-        { 3: [] },
-      ];
+      this.selected_shikigami_decks = [[], [], [], []];
     }
 
     if (this.$route.query.deck_title) {
