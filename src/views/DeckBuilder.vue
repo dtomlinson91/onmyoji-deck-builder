@@ -2,7 +2,7 @@
   <!-- <v-container fluid px-16 pb-10> -->
   <v-container>
     <v-row class="d-flex flex-column align-center pt-8">
-      <v-col cols="11">
+      <v-col cols="11" xl="8">
         <v-row>
           <v-col cols="12">
             <div class="text-center">
@@ -17,12 +17,16 @@
             v-model="deck_title"
             label="Deck Title"
             class="user-deck-title"
-            rows="1"
-            row-height="80"
+            auto-grow
           ></v-textarea>
         </v-row>
         <v-row>
-          <v-textarea v-model="deck_description" label="Deck Description">
+          <v-textarea
+            v-model="deck_description"
+            label="Deck Description"
+            row-height="40"
+            auto-grow
+          >
           </v-textarea>
         </v-row>
         <v-row>
@@ -44,12 +48,13 @@
                   v-bind="data.attrs"
                   :input-value="data.selected"
                   close
-                  x-large
+                  medium
+                  :x-large="$vuetify.breakpoint.lgAndUp"
                   @click="data.select"
                   @click:close="remove_shikigami(data.item)"
                   color="#C0B094"
                 >
-                  <v-avatar size="90" left>
+                  <v-avatar left>
                     <v-img
                       :src="require(`@/assets/cards/${data.item.avatar}`)"
                     ></v-img>
@@ -91,8 +96,8 @@
             color="#171D29"
           >
             <v-row>
-              <v-col cols="2" class="d-flex flex-column justify-end">
-                <div cols="12" class="">
+              <v-col cols="2" class="flex-column justify-end d-none d-md-flex">
+                <div class="">
                   <v-img
                     :src="
                       require(`@/assets/cards/${selected_shikigami_data[index].character_card}`)
@@ -101,11 +106,8 @@
                   ></v-img>
                 </div>
               </v-col>
-              <v-col cols="10" class="d-flex flex-column"
+              <v-col cols="12" lg="10" class="d-flex flex-column"
                 ><v-row cols="12">
-                  <!-- <v-row cols="12" class="d-none"> -->
-                  <!-- {{ index }} -->
-                  <!-- {{ selected_shikigami_decks[index][index].length }} -->
                   <v-select
                     v-model="selected_shikigami_decks[index][index]"
                     v-on:input="limit_decks"
@@ -118,6 +120,7 @@
                     persistent-hint
                     return-object
                     clearable
+                    :dense="$vuetify.breakpoint.mdAndDown"
                   >
                     <template v-slot:selection="data">
                       <v-chip
@@ -125,6 +128,7 @@
                         :input-value="data.selected"
                         close
                         label
+                        :small="$vuetify.breakpoint.mdAndDown"
                         @click="data.select"
                         @click:close="remove_decks(index, data.index)"
                         color="#C0B094"
@@ -133,24 +137,29 @@
                     >
                   </v-select>
                 </v-row>
-                <!-- <div cols="12">
-                  {{ selected_shikigami_decks[index][index] }}
-                </div> -->
-                <v-row cols="12" class="d-flex align-end pb-3">
+                <v-row cols="12" class="d-flex align-end justify-center pb-3">
+                  <v-card
+                    width="33%"
+                    color="#171D29"
+                    class="d-flex d-md-none pt-2"
+                  >
+                    <v-img
+                      :src="
+                        require(`@/assets/cards/${selected_shikigami_data[index].character_card}`)
+                      "
+                    ></v-img
+                  ></v-card>
                   <v-card
                     v-for="i in selected_shikigami_decks[index][index]"
                     :key="i.id"
-                    width="12.3%"
+                    :width="cardWidth"
                     color="#171D29"
+                    class="pt-2"
                   >
-                    <!-- <div class="text-center">
-                  {{ i.name }}
-                </div> -->
-                    <div class="">
-                      <v-img
-                        :src="require(`@/assets/cards/${i.url}`)"
-                        class="deck-card"
-                      ></v-img></div
+                    <v-img
+                      :src="require(`@/assets/cards/${i.url}`)"
+                      class="deck-card"
+                    ></v-img
                   ></v-card> </v-row
               ></v-col>
             </v-row>
@@ -247,7 +256,23 @@ export default {
       return url;
     },
   },
-  computed: {},
+  computed: {
+    cardWidth() {
+      switch (this.$vuetify.breakpoint.name) {
+        case "xs":
+          return "33%";
+        case "sm":
+          return "33%";
+        case "md":
+          return "12.3%";
+        case "lg":
+          return "12.3%";
+        case "xl":
+          return "12.3%";
+      }
+      return "12.3%";
+    },
+  },
   mounted() {
     if (this.$route.query.selected_shikigami_names) {
       const saved_selected_shikigami_names = JSON.parse(
@@ -345,9 +370,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "~vuetify/src/styles/styles.sass";
+
 .v-chip .v-avatar {
-  height: 60px !important;
-  width: 60px !important;
+  width: 20px !important;
+}
+
+@media #{map-get(
+    $display-breakpoints,
+    "lg-and-up"
+  )} {
+  .v-chip .v-avatar {
+    height: 60px !important;
+    width: 60px !important;
+  }
 }
 
 .deck-card:hover {
@@ -376,5 +412,6 @@ export default {
   padding-top: 10px !important;
   padding-bottom: 15px !important;
   text-align: center;
+  line-height: 50px;
 }
 </style>

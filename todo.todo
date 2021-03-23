@@ -1,4 +1,7 @@
 ☐ Random image on homescreen
+☐ Toggle to hide card selection
+    ☐ Have a new render that does the same but includes the char card all on one row
+    ☐ Hide the old row
 ☐ Link shortener
     ☐ Only work for this domain
     ☐ API key in `process.env` .env file
