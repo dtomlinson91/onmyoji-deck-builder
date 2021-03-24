@@ -84,7 +84,7 @@ export default {
     ],
     content: {
       title: "Onmyoji Deck Builder",
-      subtitle: "Make and share decks.",
+      subtitle: "Make and share decks online for Onmyoji TCG.",
     },
     changelog: [
       {

@@ -540,7 +540,7 @@ export default {
     padding-top: 10px !important;
     padding-bottom: 15px !important;
     text-align: center;
-    line-height: 3rem;
+    line-height: 4rem !important;
   }
 }
 </style>
