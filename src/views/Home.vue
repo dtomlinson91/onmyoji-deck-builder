@@ -1,21 +1,22 @@
 <template>
   <v-container>
     <v-row class="text-center">
-      <v-col cols="12">
+      <v-col cols="12" class="d-flex justify-center">
         <v-img
           :src="require(`@/assets/homepage/${random_welcome_image()}`)"
-          class="mb-n12 my-md-3"
+          class=""
           contain
-          height="500"
+          max-width="390px"
         />
-      </v-col>
-      <v-col
-        class="mb-0 mb-md-4 d-flex flex-column justify-center align-center"
-      >
-        <h1 class="display-2 font-weight-bold mb-0 mb-md-3">
-          Onmyoji Deck Builder
+      </v-col> </v-row
+    ><v-row class="pt-16 pt-md-4">
+      <v-col class="d-flex flex-column justify-center align-center text-center">
+        <h1 class="display-2 font-weight-bold">
+          {{ this.content.title }}
         </h1>
-        <p class="subheading font-weight-regular">Make and share decks.</p>
+        <p class="subheading font-weight-regular">
+          {{ this.content.subtitle }}
+        </p>
         <v-col cols="12" md="6" class="d-flex justify-center">
           <router-link to="/deck-builder" style="text-decoration: none"
             ><v-btn elevation="2" x-large color="#C0B094" class="mr-2 mr-md-4"
@@ -37,19 +38,19 @@
           width="100%"
           color="#171D29"
           tile
-          style="line-height: 2rem !important;"
         >
           <p class="mb-0 text-center text-button">Changelog</p>
-          <p class="pl-4 mb-0 text-button">2021-03-24</p>
+          <div v-for="i in this.changelog" :key="i.date">
+            <p class="pl-4 mb-0 text-button">{{ i.date }}</p>
+            <ul class="text-button">
+              <li v-for="j in i.changes" :key="j" class="changelog-item">
+                {{ j }}
+              </li>
+            </ul>
+          </div>
+          <!-- <p class="pl-4 mb-0 text-button">2021-03-24</p>
           <ul class="text-button">
             <li class="changelog-item">Initial release</li>
-          </ul>
-          <!-- <p class="mb-0">2021-03-24</p>
-          <ul class="text-justify">
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
-            <li>1</li>
           </ul> -->
         </v-card>
       </v-col>
@@ -81,6 +82,17 @@ export default {
       "0000069d.png",
       "0000073d.png",
     ],
+    content: {
+      title: "Onmyoji Deck Builder",
+      subtitle: "Make and share decks online for Onmyoji TCG.",
+    },
+    changelog: [
+      {
+        date: "2021-03-24",
+        changes: ["Initial release"],
+      },
+      // { date: "2021-03-23", changes: ["Initial release 3"] },
+    ],
   }),
   methods: {
     random_welcome_image() {
@@ -99,5 +111,6 @@ export default {
 
 .changelog-item {
   font-size: 0.8rem !important;
+  line-height: 1.8rem !important;
 }
 </style>
