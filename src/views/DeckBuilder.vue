@@ -16,16 +16,23 @@
           <v-textarea
             v-model="deck_title"
             label="Deck Title"
+            hint="No more than 30 characters"
             class="user-deck-title"
             auto-grow
-          ></v-textarea>
+            counter
+            :rules="[rules.length(30)]"
+          >
+          </v-textarea>
         </v-row>
         <v-row>
           <v-textarea
             v-model="deck_description"
             label="Deck Description"
+            hint="No more than 950 characters"
             row-height="40"
             auto-grow
+            counter
+            :rules="[rules.length(950)]"
           >
           </v-textarea>
         </v-row>
@@ -167,7 +174,7 @@
         </v-row>
         <v-row>
           <!-- {{ dev() }} -->
-          {{ output_shikigami_decks }}
+          <!-- {{ output_shikigami_decks }} -->
         </v-row>
         <v-row>
           <v-textarea :value="construct_url()" color="teal"> </v-textarea>
@@ -187,6 +194,10 @@ export default {
     shikigami: shikigami,
     deck_title: "",
     deck_description: "",
+    rules: {
+      length: (len) => (v) =>
+        (v || "").length <= len || `Must be less than ${len} characters.`,
+    },
   }),
   methods: {
     get_chosen_shikigami_data: function (shikigami_name) {
@@ -253,7 +264,7 @@ export default {
       const saved_deck_description = btoa(
         JSON.stringify(this.deck_description)
       );
-      const url = `?deck_title=${saved_deck_title}&deck_description=${saved_deck_description}&selected_shikigami_names=${saved_selected_shikigami_names}&output_shikigami_decks=${saved_output_shikigami_decks}`;
+      const url = `?d0=${saved_deck_title}&d1=${saved_deck_description}&d2=${saved_selected_shikigami_names}&d3=${saved_output_shikigami_decks}`;
       return url;
     },
   },
@@ -286,9 +297,9 @@ export default {
     },
   },
   mounted() {
-    if (this.$route.query.selected_shikigami_names) {
+    if (this.$route.query.d2) {
       const saved_selected_shikigami_names = JSON.parse(
-        atob(this.$route.query.selected_shikigami_names)
+        atob(this.$route.query.d2)
       );
 
       if (typeof saved_selected_shikigami_names != "object") {
@@ -303,8 +314,8 @@ export default {
       this.selected_shikigami_names = [];
     }
 
-    if (this.$route.query.deck_title) {
-      const saved_deck_title = JSON.parse(atob(this.$route.query.deck_title));
+    if (this.$route.query.d0) {
+      const saved_deck_title = JSON.parse(atob(this.$route.query.d0));
 
       if (typeof saved_deck_title != "string") {
         this.deck_title = "";
@@ -318,10 +329,8 @@ export default {
       this.deck_title = "";
     }
 
-    if (this.$route.query.deck_description) {
-      const saved_deck_description = JSON.parse(
-        atob(this.$route.query.deck_description)
-      );
+    if (this.$route.query.d1) {
+      const saved_deck_description = JSON.parse(atob(this.$route.query.d1));
 
       if (typeof saved_deck_description != "string") {
         this.deck_description = "";
@@ -336,9 +345,9 @@ export default {
     }
 
     this.$nextTick(function () {
-      if (this.$route.query.output_shikigami_decks) {
+      if (this.$route.query.d3) {
         const saved_output_shikigami_decks = JSON.parse(
-          atob(this.$route.query.output_shikigami_decks)
+          atob(this.$route.query.d3)
         );
         console.log(saved_output_shikigami_decks);
         if (typeof saved_output_shikigami_decks != "object") {
