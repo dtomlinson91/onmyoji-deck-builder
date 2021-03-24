@@ -344,19 +344,17 @@ export default {
         if (typeof saved_output_shikigami_decks != "object") {
           // do nothing: array will be empty
         } else {
-          console.log(1);
           for (let i = 0; i < this.selected_shikigami_data.length; i++) {
-            for (
-              let j = 0;
-              j < this.selected_shikigami_data[i].cards.length;
-              j++
-            ) {
-              for (let k = 0; k < saved_output_shikigami_decks[i].length; k++) {
+            for (let k = 0; k < saved_output_shikigami_decks[i].length; k++) {
+              for (
+                let j = 0;
+                j < this.selected_shikigami_data[i].cards.length;
+                j++
+              ) {
                 if (
                   saved_output_shikigami_decks[i][k] ==
                   this.selected_shikigami_data[i].cards[j].id
                 ) {
-                  console.log(`saved: ${saved_output_shikigami_decks[i][k]}`);
                   this.selected_shikigami_decks[i].push(
                     this.selected_shikigami_data[i].cards[j]
                   );
