@@ -120,7 +120,12 @@
                   </div>
                 </v-col>
                 <v-col cols="12" md="10" class="d-flex flex-column"
-                  ><v-row cols="12">
+                  ><v-row class="d-flex d-md-none"
+                    ><v-col cols="12" class="text-center text-button">{{
+                      selected_shikigami_data[index].name
+                    }}</v-col></v-row
+                  >
+                  <v-row cols="12">
                     <v-select
                       v-model="selected_shikigami_decks[index]"
                       v-on:input="limit_decks"
@@ -189,8 +194,8 @@
             <v-col cols="12" class="text-center"
               >{{ this.content.confirmation }}
             </v-col>
-            <v-col cols="12" class="text-center"
-              > {{ this.content.problems }}
+            <v-col cols="12" class="text-center">
+              {{ this.content.problems }}
             </v-col>
           </v-row>
           <v-row v-if="this.short_url" class="d-flex justify-center">
@@ -249,7 +254,8 @@ export default {
       title: "Deck Builder",
       confirmation:
         "Ready to share? Make sure your title and description are valid, your deck is correct and press the generate sharing link button below.",
-      problems: "Problems generating the sharing link? Try reducing the length of your description even further, or use the long URL instead.",
+      problems:
+        "Problems generating the sharing link? Try reducing the length of your description even further, or use the long URL instead.",
     },
     selected_shikigami_names: [],
     selected_shikigami_data: [],
@@ -328,7 +334,7 @@ export default {
       const saved_deck_description = btoa(
         JSON.stringify(this.deck_description)
       );
-      const url = `https://dev.onmyojideckbuilder.com/deck-builder?d0=${saved_deck_title}&d1=${saved_deck_description}&d2=${saved_selected_shikigami_names}&d3=${saved_output_shikigami_decks}`;
+      const url = `${process.env.VUE_APP_BASE_URL}?d0=${saved_deck_title}&d1=${saved_deck_description}&d2=${saved_selected_shikigami_names}&d3=${saved_output_shikigami_decks}`;
       return url;
     },
     validate_long_url() {
