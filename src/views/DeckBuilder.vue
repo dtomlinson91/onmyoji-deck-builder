@@ -7,7 +7,7 @@
           <v-row>
             <v-col cols="12">
               <div class="text-center">
-                <h1>Deck Builder</h1>
+                <h1>{{ this.content.title }}</h1>
                 <br />
                 <!-- {{ temp }} -->
               </div>
@@ -202,6 +202,7 @@
                 append-icon="mdi-content-copy"
                 ref="generated_url"
                 @click:append="copy_url"
+                :readonly="true"
               ></v-text-field>
             </v-col>
           </v-row>
@@ -212,6 +213,7 @@
                 append-icon="mdi-content-copy"
                 ref="generated_url"
                 @click:append="copy_url"
+                :readonly="true"
               ></v-text-field>
             </v-col>
           </v-row>
@@ -245,6 +247,9 @@ import axios from "axios";
 
 export default {
   data: () => ({
+    content: {
+      title: "Deck Builder",
+    },
     selected_shikigami_names: [],
     selected_shikigami_data: [],
     selected_shikigami_decks: [[], [], [], []],
@@ -328,7 +333,7 @@ export default {
     validate_long_url() {
       this.$refs.form.validate();
       this.submit_button_waiting = true;
-      this.long_url = this.construct_url()
+      this.long_url = this.construct_url();
       this.submit_button_waiting = false;
     },
     async validate_short_url() {
@@ -337,7 +342,7 @@ export default {
       let config = {
         headers: {
           accept: "application/json",
-          "X-Api-Key": process.env.VUE_APP_SHLINK,
+          "X-Api-Key": process.env.VUE_APP_SHLINK_API_KEY,
           "Content-Type": "application/json",
         },
       };
@@ -347,7 +352,7 @@ export default {
       };
       try {
         const result = await axios.post(
-          "https://share.onmyojideckbuilder.com/rest/v2/short-urls",
+          process.env.VUE_APP_SHLINK_API_ENDPOINT,
           data,
           config
         );
@@ -355,7 +360,8 @@ export default {
         this.short_url = result.data.shortUrl;
       } catch (error) {
         // TODO: show options for an error
-        this.short_url = "Try again";
+        this.short_url =
+          "There was an error generating the sharing link. Either try again, use a shorter description or use the long URL.";
       }
 
       this.submit_button_waiting = false;
@@ -386,9 +392,7 @@ export default {
       const output = [[], [], [], []];
       for (let i = 0; i < this.selected_shikigami_decks.length; i++) {
         for (let j = 0; j < this.selected_shikigami_decks[i].length; j++) {
-          // console.log(this.selected_shikigami_decks[i][j].id);
           output[i].push(this.selected_shikigami_decks[i][j].id);
-          // console.log(`output: ${JSON.stringify(output)}`);
         }
       }
       return output;
@@ -531,10 +535,12 @@ export default {
 </style>
 
 <style lang="scss">
-.user-deck-title textarea {
-  padding-top: 10px !important;
-  padding-bottom: 15px !important;
-  text-align: center;
-  line-height: 50px;
+.user-deck-title {
+  & textarea {
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+    text-align: center;
+    line-height: 3rem;
+  }
 }
 </style>
