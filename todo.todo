@@ -1,10 +1,12 @@
+Layout/Pages Page:
 ☐ Random image on homescreen
-☐ Toggle to hide card selection
-    ☐ Have a new render that does the same but includes the char card all on one row
-    ☐ Hide the old row
-☐ Link shortener
-    ☐ Only work for this domain
-    ☐ API key in `process.env` .env file
 ☐ News on homepage
 ☐ Help page
-☐ Mobile layout
+
+Shlink:
+✔ Link shortener @done(21-03-24 04:17)
+    ✔ Only work for this domain @done(21-03-24 04:17)
+    ✔ API key in `process.env` .env file @done(21-03-24 04:17)
+
+Dev:
+☐ Circle CI for prod + dev

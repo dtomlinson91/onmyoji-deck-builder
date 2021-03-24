@@ -1,0 +1,40 @@
+version: "3.3"
+services:
+  shlink:
+    depends_on:
+      - mariadb
+    restart: unless-stopped
+    ports:
+      - "8080:8080"
+    environment:
+      - SHORT_DOMAIN_HOST=share.onmyojideckbuilder.com
+      - SHORT_DOMAIN_SCHEMA=https
+      - GEOLITE_LICENSE_KEY=
+      - DB_DRIVER=maria
+      - DB_USER=
+      - DB_PASSWORD=
+      - DB_HOST=mariadb:3306
+    image: "shlinkio/shlink:stable"
+
+  mariadb:
+    restart: unless-stopped
+    ports:
+      - "3307:3306"
+    environment:
+      - MARIADB_ROOT_USER=
+      - MARIADB_ROOT_PASSWORD=
+      - MARIADB_USER=
+      - MARIADB_PASSWORD=
+      - MARIADB_DATABASE=
+    volumes:
+      - "mariadb_shlink:/bitnami/mariadb"
+    image: "bitnami/mariadb:latest"
+
+volumes:
+  mariadb_shlink:
+    driver: local
+
+networks:
+  default:
+    external:
+      name: caddy
