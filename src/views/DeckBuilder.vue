@@ -187,12 +187,10 @@
           </v-row> -->
           <v-row class="d-flex justify-center pt-6">
             <v-col cols="12" class="text-center"
-              >Ready to share? Make sure your title and description are valid
-              and press the generate sharing link button below.
+              >{{ this.content.confirmation }}
             </v-col>
             <v-col cols="12" class="text-center"
-              >Problems generating the sharing link? Try reducing the length of
-              your description even further, or use the long URL instead.
+              > {{ this.content.problems }}
             </v-col>
           </v-row>
           <v-row v-if="this.short_url" class="d-flex justify-center">
@@ -249,6 +247,9 @@ export default {
   data: () => ({
     content: {
       title: "Deck Builder",
+      confirmation:
+        "Ready to share? Make sure your title and description are valid, your deck is correct and press the generate sharing link button below.",
+      problems: "Problems generating the sharing link? Try reducing the length of your description even further, or use the long URL instead.",
     },
     selected_shikigami_names: [],
     selected_shikigami_data: [],
