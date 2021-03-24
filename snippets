@@ -3,3 +3,61 @@
  @media #{map-get($display-breakpoints, 'md-and-down')}
     .custom-class
       display: none
+
+All `this.$vuetify.breakpoint` variables:
+<https://vuetifyjs.com/en/features/breakpoints/#breakpoint-service-object>
+
+
+Dynamic Height with computed
+```
+<template>
+  <v-card :height="height">
+    ...
+  </v-card>
+</template>
+
+<script>
+  export default {
+    computed: {
+      height () {
+        switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return 220
+          case 'sm': return 400
+          case 'md': return 500
+          case 'lg': return 600
+          case 'xl': return 800
+        }
+      },
+    },
+  }
+</script>
+```
+
+Dynamically set props on breakpoints
+```
+:ma-0="$vuetify.breakpoint.mdAndDown"
+```
+
+Dynamically hide content on breakpoints
+<https://vuetifyjs.com/en/styles/display/#visibility>
+
+
+Dynamically set scss classes
+
+```
+@import "~vuetify/src/styles/styles.sass";
+
+.v-chip .v-avatar {
+  width: 20px !important;
+}
+
+@media #{map-get(
+    $display-breakpoints,
+    "lg-and-up"
+  )} {
+  .v-chip .v-avatar {
+    height: 60px !important;
+    width: 60px !important;
+  }
+}
+```
