@@ -13,9 +13,11 @@
         class="mb-0 mb-md-4 d-flex flex-column justify-center align-center"
       >
         <h1 class="display-2 font-weight-bold mb-0 mb-md-3">
-          Onmyoji Deck Builder
+          {{ this.content.title }}
         </h1>
-        <p class="subheading font-weight-regular">Make and share decks.</p>
+        <p class="subheading font-weight-regular">
+          {{ this.content.subtitle }}
+        </p>
         <v-col cols="12" md="6" class="d-flex justify-center">
           <router-link to="/deck-builder" style="text-decoration: none"
             ><v-btn elevation="2" x-large color="#C0B094" class="mr-2 mr-md-4"
@@ -37,7 +39,7 @@
           width="100%"
           color="#171D29"
           tile
-          style="line-height: 2rem !important;"
+          style="line-height: 2rem !important"
         >
           <p class="mb-0 text-center text-button">Changelog</p>
           <p class="pl-4 mb-0 text-button">2021-03-24</p>
@@ -81,6 +83,13 @@ export default {
       "0000069d.png",
       "0000073d.png",
     ],
+    content: {
+      title: "Onmyoji Deck Builder",
+      subtitle: "Make and share decks."
+    },
+    changelog: {
+      [{date:"", changes: [""]}]
+    }
   }),
   methods: {
     random_welcome_image() {
