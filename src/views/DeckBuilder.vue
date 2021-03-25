@@ -9,7 +9,6 @@
               <div class="text-center">
                 <h1>{{ this.content.title }}</h1>
                 <br />
-                <!-- {{ temp }} -->
               </div>
             </v-col>
           </v-row>
@@ -46,7 +45,7 @@
                 label="Select Shikigami"
                 chips
                 multiple
-                hint="Choose 4 Shikgigami for your deck."
+                hint="Choose 4 Shikigami for your deck."
                 persistent-hint
                 item-text="name"
                 item-value="name"
@@ -89,12 +88,12 @@
                 </template>
               </v-autocomplete>
             </v-col>
+            <!-- Debug variables for dev -->
             <!-- selected_shikigami_names: {{ selected_shikigami_names }} <br /> -->
             <!-- selected_shikigami_data: {{ selected_shikigami_data }} <br /> -->
             <!-- selected_shikigami_decks: {{ selected_shikigami_decks }} -->
             <!-- deck_title: {{ deck_title }} -->
-            <!-- breakpoint: {{ this.$vuetify.breakpoint.name }} -->
-            <!-- {{ this.$vuetify.breakpoint.width }} -->
+            <!-- breakpoint: {{ this.$vuetify.breakpoint.name }} - {{ this.$vuetify.breakpoint.width }}-->
           </v-row>
           <v-row v-for="(_, index) in selected_shikigami_names" :key="index">
             <v-card
@@ -458,7 +457,7 @@ export default {
         const saved_output_shikigami_decks = JSON.parse(
           atob(this.$route.query.d3)
         );
-        console.log(saved_output_shikigami_decks);
+        // console.log(saved_output_shikigami_decks);
         if (typeof saved_output_shikigami_decks != "object") {
           // do nothing: array will be empty
         } else {

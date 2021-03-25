@@ -48,10 +48,6 @@
               </li>
             </ul>
           </div>
-          <!-- <p class="pl-4 mb-0 text-button">2021-03-24</p>
-          <ul class="text-button">
-            <li class="changelog-item">Initial release</li>
-          </ul> -->
         </v-card>
       </v-col>
     </v-row>
@@ -97,7 +93,6 @@ export default {
   methods: {
     random_welcome_image() {
       const random = Math.floor(Math.random() * this.welcome_images.length);
-      console.log(this.welcome_images[random]);
       return this.welcome_images[random];
     },
   },
